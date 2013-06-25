@@ -44,31 +44,6 @@ int posicaoAtualEsq, posicaoAtualDir;
 int bracoSerial, posicaoSerial, garraSerial;
 int esqAckTemp, dirAckTemp;
 
-// ------------ ESCOPO DAS FUNÇÕES ------------
-/* void movimento (int braco, int posicao, int garra);
-
-int setEsq (int posicao, int garra);
-int setDir (int posicao, int garra);
-
-int esqPOS1 ( );
-int esqPOS2 ( );
-int esqPOS3 ( );
-int esqPOS4 ( );
-
-int dirPOS1 ( );
-int dirPOS2 ( );
-int dirPOS3 ( );
-int dirPOS4 ( );
-
-void garraESQ (int garra);
-void garraDIR (int garra);
-
-void esqABRE ();
-void esqFECHA ();
-
-void dirABRE ();
-void dirFECHA (); */
-
 
 // ------------ INICIALIZAÇÃO ------------
 
