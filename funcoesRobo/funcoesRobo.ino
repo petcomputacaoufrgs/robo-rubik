@@ -36,6 +36,9 @@
 #define POSICAO3 3
 #define POSICAO4 4
 
+// posições default dos braços
+static int POS_DEFAULT_ESQ = POSICAO1;
+static int POS_DEFAULT_DIR = POSICAO2;
 
 
 // ------------ ÁREA DE VARIÁVEIS ------------
@@ -74,8 +77,8 @@ void setup ()
 	
 	// setando estado inicial
 	
-	setEsq (POSICAO1, FECHADO);
-	setDir (POSICAO2, FECHADO);
+	setEsq (POS_DEFAULT_ESQ, FECHADO);
+	setDir (POS_DEFAULT_DIR, FECHADO);
 	
 	posicaoAtualEsq = POSICAO1;
 	posicaoAtualDir = POSICAO2;
@@ -112,20 +115,28 @@ int setEsq (int posicao, int garra)
 	switch (posicao)
 	{
 		case POSICAO1:
-			garraESQ (garra);
+			garraESQ (FECHADO);
 			esqPOS1 ( );
+                        garraESQ (ABERTO);
+                        esqPOSdefault ();
 			break;
 		case POSICAO2:
-			garraESQ (garra);
+			garraESQ (FECHADO);
 			esqPOS2 ( );
+                        garraESQ (ABERTO);
+                        esqPOSdefault ();
 			break;
 		case POSICAO3:
-			garraESQ (garra);
+			garraESQ (FECHADO);
 			esqPOS3 ( );
+                        garraESQ (ABERTO);
+                        esqPOSdefault ();
 			break;
 		case POSICAO4:
-			garraESQ (garra);
+			garraESQ (FECHADO);
 			esqPOS4 ( );
+                        garraESQ (ABERTO);
+                        esqPOSdefault ();
 			break;
 					
 	}
@@ -136,20 +147,28 @@ int setDir (int posicao, int garra)
 	switch (posicao)
 	{
 		case POSICAO1:
-			garraDIR (garra);
+			garraDIR (FECHADO);
 			dirPOS1 ( );
+                        garraDIR (ABERTO);
+                        dirPOSdefault ();
 			break;
 		case POSICAO2:
-			garraDIR (garra);
+			garraDIR (FECHADO);
 			dirPOS2 ( );
+                        garraDIR (ABERTO);
+                        dirPOSdefault ();
 			break;
 		case POSICAO3:
-			garraDIR (garra);
+			garraDIR (FECHADO);
 			dirPOS3 ( );
+                        garraDIR (ABERTO);
+                        dirPOSdefault ();
 			break;
 		case POSICAO4:
-			garraDIR (garra);
+			garraDIR (FECHADO);
 			dirPOS4 ( );
+                        garraDIR (ABERTO);
+                        dirPOSdefault ();
 			break;
 					
 	}
@@ -307,6 +326,25 @@ void esqPOS4 ( )
 	{
 	};
 }
+////
+void esqPOSdefault ()
+{
+  switch (POS_DEFAULT_ESQ)
+  {
+    case POSICAO1:
+        esqPOS1 ();
+	break;
+    case POSICAO2:
+        esqPOS2 ();
+	break;
+    case POSICAO3:
+        esqPOS3 ();
+	break;
+    case POSICAO4:
+        esqPOS4 ();
+        break;
+  }
+}
 
 //braço direito
 void dirPOS1 ( )
@@ -455,6 +493,25 @@ void dirPOS4 ( )
 	while ((dirAckTemp) != 1)
 	{
 	};
+}
+////
+void dirPOSdefault ()
+{
+  switch (POS_DEFAULT_DIR)
+  {
+    case POSICAO1:
+        dirPOS1 ();
+	break;
+    case POSICAO2:
+        dirPOS2 ();
+	break;
+    case POSICAO3:
+        dirPOS3 ();
+	break;
+    case POSICAO4:
+        dirPOS4 ();
+        break;
+  }
 }
 
 
