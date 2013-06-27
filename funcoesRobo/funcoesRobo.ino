@@ -3,22 +3,22 @@
 // ------------ ÁREA DE DEFINES ------------
 
 // posições dos braços
-#define ESQ_POS1 2
-#define ESQ_POS2 3
-#define ESQ_POS3 4
-#define ESQ_POS4 5
+#define ESQ_POS1 5
+#define ESQ_POS2 4
+#define ESQ_POS3 10
+#define ESQ_POS4 3
 
-#define DIR_POS1 6
-#define DIR_POS2 7
-#define DIR_POS3 8
+#define DIR_POS1 13
+#define DIR_POS2 12
+#define DIR_POS3 11
 #define DIR_POS4 9
 
 // controle das garras
-#define ESQ_ABRE 10
-#define ESQ_FECHA 11
+#define ESQ_ABRE 7 
+#define ESQ_FECHA 6
 
-#define DIR_ABRE 12
-#define DIR_FECHA 13
+#define DIR_ABRE 2
+#define DIR_FECHA 8
 
 // retorno de estado
 #define ESQ_ACK A0
