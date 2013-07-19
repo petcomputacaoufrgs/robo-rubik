@@ -77,14 +77,14 @@ void setup ()
 	
 	// setando estado inicial
 	
-	setEsq (POS_DEFAULT_ESQ, FECHADO);
-	setDir (POS_DEFAULT_DIR, FECHADO);
-	
-	posicaoAtualEsq = POSICAO1;
-	posicaoAtualDir = POSICAO2;
-	
-	esqAckTemp = 1;
-	dirAckTemp = 1;
+//	setEsq (POS_DEFAULT_ESQ, FECHADO);
+//	setDir (POS_DEFAULT_DIR, FECHADO);
+//	
+//	posicaoAtualEsq = POSICAO1;
+//	posicaoAtualDir = POSICAO2;
+//	
+//	esqAckTemp = 1;
+//	dirAckTemp = 1;
 }
 
 // ------------ MAIN ------------
