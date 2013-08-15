@@ -44,36 +44,10 @@ void setup() {
   
 // the loop routine runs over and over again forever:
 void loop() {
+  digitalWrite(rele2, LOW);
   digitalWrite(rele1, HIGH);   // turn the LED on (HIGH is the voltage level)
-  digitalWrite(esq1, HIGH);
-  digitalWrite(dir1, HIGH);
   delay(DELAY);                // wait for a second
-  digitalWrite(rele1, LOW);    // turn the LED off by making the voltage LOW
-  digitalWrite(esq1, LOW);
-  digitalWrite(dir1, LOW);
-  delay(DELAY);
-  digitalWrite(rele2, HIGH);  // turn the LED on (HIGH is the voltage level)
-  digitalWrite(esq2, HIGH);
-  digitalWrite(dir2, HIGH);
-  delay(DELAY);               // wait for a second
-  digitalWrite(rele2, LOW);   // turn the LED off by making the voltage LOW
-  digitalWrite(esq2, LOW);
-  digitalWrite(dir2, LOW);
-  delay(DELAY);               // wait for a second
-  digitalWrite(rele3, HIGH);  // turn the LED on (HIGH is the voltage level)
-  digitalWrite(esq3, HIGH);
-  digitalWrite(dir3, HIGH);
-  delay(DELAY);               // wait for a second
-  digitalWrite(rele3, LOW);   // turn the LED off by making the voltage LOW
-  digitalWrite(esq3, LOW);
-  digitalWrite(dir3, LOW);
-  delay(DELAY);
-  digitalWrite(rele4, HIGH);  // turn the LED on (HIGH is the voltage level)
-  digitalWrite(esq4, HIGH);
-  digitalWrite(dir4, HIGH);
-  delay(DELAY);               // wait for a second
-  digitalWrite(rele4, LOW);   // turn the LED off by making the voltage LOW
-  digitalWrite(esq4, LOW);
-  digitalWrite(dir4, LOW);
+  digitalWrite(rele2, LOW);
+  digitalWrite(rele1, HIGH);    // turn the LED off by making the voltage LOW
   delay(DELAY);
 }
