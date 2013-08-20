@@ -8,7 +8,7 @@
 // Pin 13 has an LED connected on most Arduino boards.
 // give it a name:
 
-#define DELAY  900
+#define DELAY   900
 #define ENTREONOFF  50
 
 #define DIR_ABRE  8
