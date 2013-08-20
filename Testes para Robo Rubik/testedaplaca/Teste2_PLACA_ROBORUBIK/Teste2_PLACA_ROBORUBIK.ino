@@ -25,9 +25,11 @@
 #define dir4  13
 
 
+
 // the setup routine runs once when you press reset:
+
 void setup() {                
-  // initialize the digital pin as an output.
+  
   pinMode(DIR_ABRE, OUTPUT);
   pinMode(DIR_FECHA, OUTPUT);
   pinMode(ESQ_ABRE, OUTPUT);
@@ -46,7 +48,7 @@ void setup() {
   digitalWrite(ESQ_FECHA, LOW);
   digitalWrite(ESQ_ABRE, LOW);
   
-  delay(3000);
+  //delay(3000);
 }
   
 // the loop routine runs over and over again forever:
@@ -67,6 +69,5 @@ void loop() {
   delay(ENTREONOFF);
   digitalWrite(DIR_FECHA, LOW);
   digitalWrite(ESQ_FECHA,LOW);
-  
   
 }
