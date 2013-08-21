@@ -3,22 +3,23 @@
 // ------------ ÁREA DE DEFINES ------------
 
 // posições dos braços
-#define ESQ_POS1 5
+#define ESQ_POS1 10
 #define ESQ_POS2 4
-#define ESQ_POS3 10
+#define ESQ_POS3 5 
 #define ESQ_POS4 3
 
-#define DIR_POS1 13
-#define DIR_POS2 12
-#define DIR_POS3 11
-#define DIR_POS4 9
+#define DIR_POS1 11
+#define DIR_POS2 9
+#define DIR_POS3 13
+#define DIR_POS4 12
 
 // controle das garras
-#define ESQ_ABRE 7 
-#define ESQ_FECHA 6
 
-#define DIR_ABRE 2
-#define DIR_FECHA 8
+#define ESQ_ABRE 6 
+#define ESQ_FECHA 7
+
+#define DIR_ABRE 8
+#define DIR_FECHA 2
 
 // retorno de estado
 #define ESQ_ACK A0
@@ -37,6 +38,7 @@
 #define POSICAO4 4
 
 #define TEMPO_ESPERA 1000
+#define ENTREONOFF 50
 
 // posições default dos braços
 static int POS_DEFAULT_ESQ = POSICAO1;
@@ -79,8 +81,23 @@ void setup ()
 	
 	// setando estado inicial
 	
-	setEsq (POS_DEFAULT_ESQ, FECHADO);
-	setDir (POS_DEFAULT_DIR, FECHADO);
+
+        digitalWrite(DIR_FECHA, LOW);
+        digitalWrite(DIR_ABRE, LOW);
+        digitalWrite(ESQ_FECHA, LOW);
+        digitalWrite(ESQ_ABRE, LOW);
+        
+        digitalWrite(ESQ_POS1, LOW);
+        digitalWrite(ESQ_POS2, LOW);
+        digitalWrite(ESQ_POS3, LOW);
+        digitalWrite(ESQ_POS4, LOW);
+        digitalWrite(DIR_POS1, LOW);
+        digitalWrite(DIR_POS2, LOW);
+        digitalWrite(DIR_POS3, LOW);
+        digitalWrite(DIR_POS4, LOW);
+          
+	//setEsq (POS_DEFAULT_ESQ, FECHADO);
+	//setDir (POS_DEFAULT_DIR, FECHADO);
 	
 	posicaoAtualEsq = POSICAO1;
 	posicaoAtualDir = POSICAO2;
@@ -93,21 +110,21 @@ void setup ()
 
 void loop ()
 {	
+
 	movimento (ESQUERDO, POSICAO1, FECHADO);
-        movimento (ESQUERDO, POSICAO2, FECHADO);
-        movimento (ESQUERDO, POSICAO3, FECHADO);
-        movimento (ESQUERDO, POSICAO4, FECHADO);
-        
         movimento (DIREITO, POSICAO1, FECHADO);
+        movimento (ESQUERDO, POSICAO2, FECHADO);
         movimento (DIREITO, POSICAO2, FECHADO);
+        movimento (ESQUERDO, POSICAO3, FECHADO);
         movimento (DIREITO, POSICAO3, FECHADO);
+        movimento (ESQUERDO, POSICAO4, FECHADO);
         movimento (DIREITO, POSICAO4, FECHADO);
         
-        dirABRE ();
-        dirFECHA ();
-        
-        esqABRE ();
-        esqFECHA ();
+//        dirABRE ();
+//        dirFECHA ();
+
+//        esqABRE ();
+//        esqFECHA ();
 }
 
 // ------------ MOVIMENTOS GERAIS ------------
@@ -341,6 +358,7 @@ void esqPOSdefault ()
         esqPOS4 ();
         break;
   }
+  delay (TEMPO_ESPERA);
 }
 
 //braço direito
@@ -508,6 +526,8 @@ void garraESQ (int garra)
 		esqABRE ();
 	else if (garra == FECHADO)
 		esqFECHA ();
+
+        delay (TEMPO_ESPERA);
 }
 
 void garraDIR (int garra)
@@ -516,30 +536,39 @@ void garraDIR (int garra)
 		dirABRE ();
 	else if (garra == FECHADO)
 		dirFECHA ();
+
+        delay (TEMPO_ESPERA);
 }
 
 void esqABRE ()
 {
-	digitalWrite (ESQ_ABRE,HIGH);
-	digitalWrite (ESQ_FECHA,LOW);
+        digitalWrite(ESQ_ABRE,HIGH);
+        delay(ENTREONOFF);
+        digitalWrite(ESQ_ABRE,LOW);
+  
+  
+  
 }
 
 void esqFECHA ()
 {
-	digitalWrite (ESQ_ABRE,LOW);
-	digitalWrite (ESQ_FECHA,HIGH);
+        digitalWrite(ESQ_FECHA,HIGH);
+        delay(ENTREONOFF);
+        digitalWrite(ESQ_FECHA,LOW);
 }
 
 void dirABRE ()
 {
-	digitalWrite (DIR_ABRE,HIGH);
-	digitalWrite (DIR_FECHA,LOW);
+        digitalWrite(DIR_ABRE,HIGH);
+        delay(ENTREONOFF);
+        digitalWrite(DIR_ABRE,LOW);
 }
 
 void dirFECHA ()
 {
-	digitalWrite (DIR_ABRE,LOW);
-	digitalWrite (DIR_FECHA,HIGH);
+        digitalWrite(DIR_FECHA,HIGH);
+        delay(ENTREONOFF);
+        digitalWrite(DIR_FECHA,LOW);
 }
 
 
