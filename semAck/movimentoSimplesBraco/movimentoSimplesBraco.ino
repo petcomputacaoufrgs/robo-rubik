@@ -37,7 +37,7 @@
 #define POSICAO3 3
 #define POSICAO4 4
 
-#define TEMPO_ESPERA 1000
+#define TEMPO_ESPERA 200
 #define ENTREONOFF 50
 
 // posições default dos braços
@@ -211,26 +211,28 @@ void esqPOS1 ( )
 		case POSICAO1:
 			break;
 		case POSICAO2:
-			digitalWrite (ESQ_POS1,LOW);
+	
 			digitalWrite (ESQ_POS2,HIGH);
-			digitalWrite (ESQ_POS3,LOW);
-			digitalWrite (ESQ_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (ESQ_POS2,LOW);
+                        
 			posicaoAtualEsq = POSICAO2;
 			break;
 		case POSICAO3:
 			esqPOS2 ();
-			digitalWrite (ESQ_POS1,LOW);
-			digitalWrite (ESQ_POS2,LOW);
 			digitalWrite (ESQ_POS3,HIGH);
-			digitalWrite (ESQ_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (ESQ_POS3,LOW);
+                        
 			posicaoAtualEsq = POSICAO3;
 			break;
-		case POSICAO4:
-			digitalWrite (ESQ_POS1,LOW);
-			digitalWrite (ESQ_POS2,LOW);
-			digitalWrite (ESQ_POS3,LOW);
+		case POSICAO4:                        
+                        
 			digitalWrite (ESQ_POS4,HIGH);
-			posicaoAtualEsq = POSICAO4;
+			delay(ENTREONOFF);
+                        digitalWrite (ESQ_POS4,LOW);
+                        
+                        posicaoAtualEsq = POSICAO4;
 			break;
 					
 	}
@@ -244,26 +246,28 @@ void esqPOS2 ( )
 	{
 		case POSICAO1:
 			digitalWrite (ESQ_POS1,HIGH);
-			digitalWrite (ESQ_POS2,LOW);
-			digitalWrite (ESQ_POS3,LOW);
-			digitalWrite (ESQ_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (ESQ_POS1,LOW);
+                        
 			posicaoAtualEsq = POSICAO1;
 			break;
 		case POSICAO2:
 			break;
 		case POSICAO3:
-			digitalWrite (ESQ_POS1,LOW);
-			digitalWrite (ESQ_POS2,LOW);
+
 			digitalWrite (ESQ_POS3,HIGH);
-			digitalWrite (ESQ_POS4,LOW);
-			posicaoAtualEsq = POSICAO3;
+                        delay(ENTREONOFF);
+                        digitalWrite (ESQ_POS3,LOW);
+
+                        posicaoAtualEsq = POSICAO3;
 			break;
 		case POSICAO4:
 			esqPOS1 ();
-			digitalWrite (ESQ_POS1,LOW);
-			digitalWrite (ESQ_POS2,LOW);
-			digitalWrite (ESQ_POS3,LOW);
+
 			digitalWrite (ESQ_POS4,HIGH);
+                        delay(ENTREONOFF);
+                        digitalWrite (ESQ_POS4,LOW);
+
 			posicaoAtualEsq = POSICAO4;
 			break;
 					
@@ -278,16 +282,17 @@ void esqPOS3 ( )
 		case POSICAO1:
 			esqPOS2 ();
 			digitalWrite (ESQ_POS1,HIGH);
-			digitalWrite (ESQ_POS2,LOW);
-			digitalWrite (ESQ_POS3,LOW);
-			digitalWrite (ESQ_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (ESQ_POS1,LOW);
+
 			posicaoAtualEsq = POSICAO1;
 			break;
 		case POSICAO2:
-			digitalWrite (ESQ_POS1,LOW);
+
 			digitalWrite (ESQ_POS2,HIGH);
-			digitalWrite (ESQ_POS3,LOW);
-			digitalWrite (ESQ_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (ESQ_POS2,LOW);
+
 			posicaoAtualEsq = POSICAO2;
 			break;
 		case POSICAO3:
@@ -295,10 +300,11 @@ void esqPOS3 ( )
 		case POSICAO4:
 			esqPOS2 ();
 			esqPOS1 ();
-			digitalWrite (ESQ_POS1,LOW);
-			digitalWrite (ESQ_POS2,LOW);
-			digitalWrite (ESQ_POS3,LOW);
+
 			digitalWrite (ESQ_POS4,HIGH);
+                        delay(ENTREONOFF);
+                        digitalWrite (ESQ_POS4,LOW);
+
 			posicaoAtualEsq = POSICAO4;
 			break;
 					
@@ -312,26 +318,28 @@ void esqPOS4 ( )
 	{
 		case POSICAO1:
 			digitalWrite (ESQ_POS1,HIGH);
-			digitalWrite (ESQ_POS2,LOW);
-			digitalWrite (ESQ_POS3,LOW);
-			digitalWrite (ESQ_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (ESQ_POS1,LOW);
+
 			posicaoAtualEsq = POSICAO1;
 			break;
 		case POSICAO2:
 			esqPOS1 ();
-			digitalWrite (ESQ_POS1,LOW);
+
 			digitalWrite (ESQ_POS2,HIGH);
-			digitalWrite (ESQ_POS3,LOW);
-			digitalWrite (ESQ_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (ESQ_POS2,LOW);
+
 			posicaoAtualEsq = POSICAO2;
 			break;
 		case POSICAO3:
 			esqPOS1 ();
 			esqPOS2 ();
-			digitalWrite (ESQ_POS1,LOW);
+
 			digitalWrite (ESQ_POS2,HIGH);
-			digitalWrite (ESQ_POS3,LOW);
-			digitalWrite (ESQ_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (ESQ_POS2,LOW);
+
 			posicaoAtualEsq = POSICAO3;
 			break;
 		case POSICAO4:
@@ -369,25 +377,27 @@ void dirPOS1 ( )
 		case POSICAO1:
 			break;
 		case POSICAO2:
-			digitalWrite (DIR_POS1,LOW);
 			digitalWrite (DIR_POS2,HIGH);
-			digitalWrite (DIR_POS3,LOW);
-			digitalWrite (DIR_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (DIR_POS2,LOW);
+                        
 			posicaoAtualDir = POSICAO2;
 			break;
 		case POSICAO3:
 			dirPOS2 ();
-			digitalWrite (DIR_POS1,LOW);
-			digitalWrite (DIR_POS2,LOW);
+
 			digitalWrite (DIR_POS3,HIGH);
-			digitalWrite (DIR_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (DIR_POS3,LOW);
+
 			posicaoAtualDir = POSICAO3;
 			break;
 		case POSICAO4:
-			digitalWrite (DIR_POS1,LOW);
-			digitalWrite (DIR_POS2,LOW);
-			digitalWrite (DIR_POS3,LOW);
+
 			digitalWrite (DIR_POS4,HIGH);
+                        delay(ENTREONOFF);
+                        digitalWrite (DIR_POS4,LOW);
+
 			posicaoAtualDir = POSICAO4;
 			break;
 					
@@ -401,26 +411,24 @@ void dirPOS2 ( )
 	{
 		case POSICAO1:
 			digitalWrite (DIR_POS1,HIGH);
-			digitalWrite (DIR_POS2,LOW);
-			digitalWrite (DIR_POS3,LOW);
-			digitalWrite (DIR_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (DIR_POS1,LOW);
 			posicaoAtualDir = POSICAO1;
 			break;
 		case POSICAO2:
 			break;
 		case POSICAO3:
-			digitalWrite (DIR_POS1,LOW);
-			digitalWrite (DIR_POS2,LOW);
+
 			digitalWrite (DIR_POS3,HIGH);
-			digitalWrite (DIR_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (DIR_POS3,LOW);
 			posicaoAtualDir = POSICAO3;
 			break;
 		case POSICAO4:
 			dirPOS1 ();
-			digitalWrite (DIR_POS1,LOW);
-			digitalWrite (DIR_POS2,LOW);
-			digitalWrite (DIR_POS3,LOW);
 			digitalWrite (DIR_POS4,HIGH);
+                        delay(ENTREONOFF);
+                        digitalWrite (DIR_POS4,LOW);
 			posicaoAtualDir = POSICAO4;
 			break;
 					
@@ -435,16 +443,15 @@ void dirPOS3 ( )
 		case POSICAO1:
 			dirPOS2 ();
 			digitalWrite (DIR_POS1,HIGH);
-			digitalWrite (DIR_POS2,LOW);
-			digitalWrite (DIR_POS3,LOW);
-			digitalWrite (DIR_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (DIR_POS1,LOW);
 			posicaoAtualDir = POSICAO1;
 			break;
 		case POSICAO2:
-			digitalWrite (DIR_POS1,LOW);
+
 			digitalWrite (DIR_POS2,HIGH);
-			digitalWrite (DIR_POS3,LOW);
-			digitalWrite (DIR_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (DIR_POS2,LOW);
 			posicaoAtualDir = POSICAO2;
 			break;
 		case POSICAO3:
@@ -452,10 +459,10 @@ void dirPOS3 ( )
 		case POSICAO4:
 			dirPOS2 ();
 			dirPOS1 ();
-			digitalWrite (DIR_POS1,LOW);
-			digitalWrite (DIR_POS2,LOW);
-			digitalWrite (DIR_POS3,LOW);
+
 			digitalWrite (DIR_POS4,HIGH);
+                        delay(ENTREONOFF);
+                        digitalWrite (DIR_POS4,LOW);
 			posicaoAtualDir = POSICAO4;
 			break;
 					
@@ -469,26 +476,25 @@ void dirPOS4 ( )
 	{
 		case POSICAO1:
 			digitalWrite (DIR_POS1,HIGH);
-			digitalWrite (DIR_POS2,LOW);
-			digitalWrite (DIR_POS3,LOW);
-			digitalWrite (DIR_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (DIR_POS1,LOW);
 			posicaoAtualDir = POSICAO1;
 			break;
 		case POSICAO2:
 			dirPOS1 ();
-			digitalWrite (DIR_POS1,LOW);
+
 			digitalWrite (DIR_POS2,HIGH);
-			digitalWrite (DIR_POS3,LOW);
-			digitalWrite (DIR_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (DIR_POS2,LOW);
 			posicaoAtualDir = POSICAO2;
 			break;
 		case POSICAO3:
 			dirPOS1 ();
 			dirPOS2 ();
-			digitalWrite (DIR_POS1,LOW);
+
 			digitalWrite (DIR_POS2,HIGH);
-			digitalWrite (DIR_POS3,LOW);
-			digitalWrite (DIR_POS4,LOW);
+                        delay(ENTREONOFF);
+                        digitalWrite (DIR_POS2,LOW);
 			posicaoAtualDir = POSICAO3;
 			break;
 		case POSICAO4:
@@ -594,5 +600,3 @@ int leituraAck (int braco)
 				return 0;
 		}
 }
-
-
