@@ -117,23 +117,17 @@ void loop ()
 
         
         
-        
-        movimento (ESQUERDO, POSICAO1, FECHADO);
-        movimento (DIREITO, POSICAO1, FECHADO);
         movimento (ESQUERDO, POSICAO2, FECHADO);
         movimento (DIREITO, POSICAO2, FECHADO);
-        movimento (ESQUERDO, POSICAO3, FECHADO);
-        movimento (DIREITO, POSICAO3, FECHADO);
-        movimento (ESQUERDO, POSICAO4, FECHADO);
-        movimento (DIREITO, POSICAO4, FECHADO);
-        
+
+//        
 //        dirABRE ();
 //        dirFECHA ();
 
 //        esqABRE ();
 //        esqFECHA ();
 
-      delay(1000);
+      //delay(000);
 }
 
 // ------------ MOVIMENTOS GERAIS ------------
