@@ -1,25 +1,33 @@
 #include <iostream>
+#include <cstdio>
 #include "opencv2/highgui/highgui.hpp"
 
-#include "include/CubeView.h"
+#include "./include/CubeView.h"
 
 using namespace std;
 using namespace cv;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    CubeView camera;
-    namedWindow("MyVideo",CV_WINDOW_AUTOSIZE); //create a window called "MyVideo"
 
-    int key;
-    while(1)
+     CubeView camera;
+    namedWindow("MyVideo",CV_WINDOW_AUTOSIZE); //create a window called "MyVideo"
+    int key=0;
+    while(key!=27)
     {
         camera.updateFrame();
-        imshow("MyVideo", *(camera.currentFrame)); //show the frame in "MyVideo" window
         key =cv::waitKey(40);
-        if(key == 27)
+
+        if(key == 10)
+        {
             camera.printColors();
+        }
+        else
+        {
+            camera.printRectangles();
+        }
+
+        imshow("MyVideo", *(camera.currentFrame)); //show the frame in "MyVideo" window
     }
 
     return 0;

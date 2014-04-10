@@ -23,6 +23,7 @@ class CubeView : public CameraView
         cv::Mat getCubeView();
         void printColors();
         void updateFrame();
+        void printRectangles();
     protected:
     private:
       CubeSquare cubeSide[SIDESIZE][SIDESIZE];   ///represents a side of the cube, where the first index is the index of the row and the second of the line of the square in the cube

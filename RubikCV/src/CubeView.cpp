@@ -1,8 +1,7 @@
 #include "../include/CubeView.h"
 
-#include <iostream>
+#include <cstdio>
 
-using namespace std;
 
 CubeView::CubeView(int cameraID) : CameraView(cameraID)
 {
@@ -36,11 +35,15 @@ CubeView::~CubeView()
 void CubeView::updateFrame()
 {
     this->CameraView::updateFrame();
+}
+
+void CubeView::printRectangles()
+{
 
     for(int row = 0; row < SIDESIZE; row++)
         for(int col =0; col < SIDESIZE; col++)
         {
-            cv::rectangle(*currentFrame, cubeSide[row][col].RegionOfInterest, cv::Scalar_<int>(0,0,255),1,8,0);
+            cv::rectangle(*currentFrame, cubeSide[row][col].RegionOfInterest, cv::Scalar_<int>(0,255,0),1,8,0);
         }
 }
 
@@ -51,9 +54,8 @@ void CubeView::printColors()
         for(int col =0; col < SIDESIZE; col++)
         {
             cv::Vec3b squareColor = cubeSide[row][col].getColor();
-            cout << squareColor[0] << ';' << squareColor[1] <<';' << squareColor[2];
-            cout<<"    ";
+            printf("B: %d; G: %d; R: %d      ",squareColor[0],squareColor[1],squareColor[2]);
         }
-        cout<<endl;
+        printf("\n");
     }
 }

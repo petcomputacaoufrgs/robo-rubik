@@ -26,3 +26,35 @@
 1396034515 /home/crmdias/Desktop/PET/Rubik/RubikCV/include/CubeSquare.h
 	"opencv2/highgui/highgui.hpp"
 
+1397160517 source:/home/crmdias/Desktop/PET/roborubik/RubikCV/src/CameraView.cpp
+	"../include/CameraView.h"
+	<iostream>
+
+1395945041 /home/crmdias/Desktop/PET/roborubik/RubikCV/include/CameraView.h
+	"opencv2/highgui/highgui.hpp"
+
+1397158927 source:/home/crmdias/Desktop/PET/roborubik/RubikCV/src/CubeSquare.cpp
+	"../include/CubeSquare.h"
+	<cstdio>
+	<math.h>
+
+1397156815 /home/crmdias/Desktop/PET/roborubik/RubikCV/include/CubeSquare.h
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/core/core.hpp"
+	"opencv2/opencv.hpp"
+
+1397161186 source:/home/crmdias/Desktop/PET/roborubik/RubikCV/src/CubeView.cpp
+	"../include/CubeView.h"
+	<cstdio>
+
+1396553353 /home/crmdias/Desktop/PET/roborubik/RubikCV/include/CubeView.h
+	"opencv2/highgui/highgui.hpp"
+	"../include/CameraView.h"
+	"../include/CubeSquare.h"
+
+1397156782 source:/home/crmdias/Desktop/PET/roborubik/RubikCV/main.cpp
+	<iostream>
+	<cstdio>
+	"opencv2/highgui/highgui.hpp"
+	"./include/CubeView.h"
+
