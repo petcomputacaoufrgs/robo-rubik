@@ -5,7 +5,15 @@
 #include "opencv2/core/core.hpp"
 #include "opencv2/opencv.hpp"
 
+#define N_OF_COLORS 6
+
 using namespace cv;
+
+typedef struct CubeColor
+{
+    char colorCode;
+    float labValue[3];
+}CubeColor;
 
 class CubeSquare
 {
@@ -18,17 +26,22 @@ class CubeSquare
         virtual ~CubeSquare();
 
         //methods
-        cv::Vec3b getColor();
-        static double mean(int* inputArray,int arraySize);
-        static bool printAsLab(cv::Vec3b rgbColor1);
+        char getColorCode();
+        cv::Vec3b getRgbColor();
+        void showRectangle();
         //members
         cv::Rect_<int> RegionOfInterest;
     protected:
+
+        static CubeColor colors[N_OF_COLORS];
+
     private:
+        //methods
+        float colorDistance(cv::Vec3f labColor1, cv::Vec3f labColor2);
+        cv::Vec3f rgbToLab(cv::Vec3b rgbColor1);
+        static inline cv::Vec3f vec3fFromFloat3(float source[3]);
         //members
         cv::Mat* cubeImage;
-        //methods
-        int saturate(cv::Vec3b color); //saturates the given color to the range 0 - 255, for each channel
 };
 
 #endif // CUBESQUARE_H

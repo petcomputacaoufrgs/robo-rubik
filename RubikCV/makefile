@@ -1,4 +1,4 @@
-CVLIBS = -lopencv_core -lopencv_highgui
+CVLIBS = -lopencv_core -lopencv_highgui -lopencv_imgproc
 
 SRC_PATH = ./src
 OBJ_PATH = ./obj
@@ -9,7 +9,7 @@ INCLUDES = -I include
 MAINFILE = main.cpp
 
 CC = g++
-CFLAGS = -Wall
+CFLAGS = -Wall 
 
 rubikcv:
 	$(CC) $(MAINFILE) $(OBJ_PATH)/*.o $(CVLIBS) $(CFLAGS) -o rubikcv.out
