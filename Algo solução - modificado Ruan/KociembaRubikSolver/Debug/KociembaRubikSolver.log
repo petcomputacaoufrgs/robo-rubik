@@ -1,0 +1,25 @@
+﻿Build started 15/03/2014 17:48:50.
+     1>Project "D:\Dropbox\Robô Cubo Mágico\ANTIGO\Algorítmo de Solução (ANTIGO)\Kociemba Rubik Solver\KociembaRubikSolver\KociembaRubikSolver.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\KociembaRubikSolver.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       PostBuildEvent:
+         U:WWRYOOGBY D:BWROROYYR F:WGORWBOGG B:WRORBBWOR L:YWOYYGBBG R:BGGRGYBWY
+         :VCEnd
+         O sistema não pode encontrar a unidade especificada.
+       FinalizeBuildStatus:
+         Deleting file "Debug\KociembaRubikSolver.unsuccessfulbuild".
+         Touching "Debug\KociembaRubikSolver.lastbuildstate".
+     1>Done Building Project "D:\Dropbox\Robô Cubo Mágico\ANTIGO\Algorítmo de Solução (ANTIGO)\Kociemba Rubik Solver\KociembaRubikSolver\KociembaRubikSolver.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.31

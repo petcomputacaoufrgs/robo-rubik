@@ -1,0 +1,4 @@
+C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\RubikCube\bin\Release\RubikCube.dll
+C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\RubikCube\bin\Release\RubikCube.pdb
+C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\RubikCube\obj\Release\RubikCube.dll
+C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\RubikCube\obj\Release\RubikCube.pdb

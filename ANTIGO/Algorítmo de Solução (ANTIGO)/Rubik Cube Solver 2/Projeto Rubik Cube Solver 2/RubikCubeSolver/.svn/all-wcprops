@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/19/trunk/RubikCubeSolver
+END
+app.config
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/19/trunk/RubikCubeSolver/app.config
+END
+CubeDiagramFiller.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/trunk/RubikCubeSolver/CubeDiagramFiller.cs
+END
+RubikCubeSolverApp.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/19/trunk/RubikCubeSolver/RubikCubeSolverApp.csproj
+END
+frmMain.resx
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3/trunk/RubikCubeSolver/frmMain.resx
+END
+Program.cs
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/RubikCubeSolver/Program.cs
+END
+frmMain.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/19/trunk/RubikCubeSolver/frmMain.Designer.cs
+END
+frmMain.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/19/trunk/RubikCubeSolver/frmMain.cs
+END
+StoredData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/7/trunk/RubikCubeSolver/StoredData.cs
+END

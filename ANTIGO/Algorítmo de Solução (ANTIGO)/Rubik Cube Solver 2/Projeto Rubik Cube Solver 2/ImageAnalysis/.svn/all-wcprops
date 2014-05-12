@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/21/trunk/ImageAnalysis
+END
+ImageAnalysisEnums.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/ImageAnalysis/ImageAnalysisEnums.cs
+END
+ColorFilterCollection.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/trunk/ImageAnalysis/ColorFilterCollection.cs
+END
+ColorFilterDialog.resx
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/7/trunk/ImageAnalysis/ColorFilterDialog.resx
+END
+ImageAnalysis.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20/trunk/ImageAnalysis/ImageAnalysis.csproj
+END
+ImageAnalyser.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/21/trunk/ImageAnalysis/ImageAnalyser.cs
+END
+ColorFilterEventArgs.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/ImageAnalysis/ColorFilterEventArgs.cs
+END
+ColorFilterDialog.Designer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/ImageAnalysis/ColorFilterDialog.Designer.cs
+END
+ImageSample.cs
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/21/trunk/ImageAnalysis/ImageSample.cs
+END
+ColorFilterDialog.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/7/trunk/ImageAnalysis/ColorFilterDialog.cs
+END
+ColorFilter.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/5/trunk/ImageAnalysis/ColorFilter.cs
+END

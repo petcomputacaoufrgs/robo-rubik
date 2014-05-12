@@ -1,0 +1,14 @@
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\bin\Debug\CubeSolver.dll
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\bin\Debug\CubeSolver.pdb
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\bin\Debug\AForge.Imaging.dll
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\bin\Debug\ImageAnalysis.dll
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\bin\Debug\RubikCube.dll
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\bin\Debug\AForge.dll
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\bin\Debug\AForge.Math.dll
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\bin\Debug\ImageAnalysis.pdb
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\bin\Debug\RubikCube.pdb
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\obj\Debug\CubeSolver.dll
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\obj\Debug\CubeSolver.pdb
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\bin\Debug\ArduinoCommunication.dll
+C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\CubeSolver\bin\Debug\ArduinoCommunication.pdb

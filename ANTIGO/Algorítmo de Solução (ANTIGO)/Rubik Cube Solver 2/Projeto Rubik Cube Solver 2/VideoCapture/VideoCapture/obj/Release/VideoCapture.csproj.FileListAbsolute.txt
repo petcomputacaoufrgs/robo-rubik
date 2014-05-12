@@ -1,0 +1,4 @@
+C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\VideoCapture\VideoCapture\bin\Release\VideoCapture.dll
+C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\VideoCapture\VideoCapture\bin\Release\VideoCapture.pdb
+C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\VideoCapture\VideoCapture\obj\Release\VideoCapture.dll
+C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\VideoCapture\VideoCapture\obj\Release\VideoCapture.pdb

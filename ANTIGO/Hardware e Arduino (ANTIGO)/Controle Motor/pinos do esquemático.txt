@@ -1,0 +1,14 @@
+Pinos da Garra esquerda:
+1 = 24V
+2,3 = Terra
+
+Pinos da Garra Direita:
+
+4 = 24V
+5,6 = Terra
+
+7 = 24V
+8 = Terra
+
+Saidas do Arduino Principal
+13 - garra

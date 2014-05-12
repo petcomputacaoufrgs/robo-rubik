@@ -1,0 +1,12 @@
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\bin\Debug\CubeSolver.dll
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\bin\Debug\CubeSolver.pdb
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\bin\Debug\AForge.Imaging.dll
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\bin\Debug\ImageAnalysis.dll
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\bin\Debug\RubikCube.dll
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\bin\Debug\AForge.dll
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\bin\Debug\AForge.Math.dll
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\bin\Debug\ImageAnalysis.pdb
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\bin\Debug\RubikCube.pdb
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\obj\Debug\CubeSolver.csprojResolveAssemblyReference.cache
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\obj\Debug\CubeSolver.dll
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\obj\Debug\CubeSolver.pdb

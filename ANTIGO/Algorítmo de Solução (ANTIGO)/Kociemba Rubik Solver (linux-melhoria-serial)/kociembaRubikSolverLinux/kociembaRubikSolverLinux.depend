@@ -1,0 +1,632 @@
+# depslib dependency file v1.0
+1395342347 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/COMBINAT.CPP
+	"COMBINAT.H"
+	"VECTOR.H"
+
+1395343310 
+
+872269436 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/COMBINAT.H
+
+874377270 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/VECTOR.H
+
+1395342383 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/CUBE.CPP
+	"stdafx.h"
+	"CUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1395342152 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/stdafx.h
+
+1395342426 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/CUBE.H
+
+1395342465 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/CUBEPARS.CPP
+	"stdafx.h"
+	"CUBEPARS.H"
+	"FACECUBE.H"
+	<vector>
+	<string.h>
+
+1395342542 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/CUBEPARS.H
+	<vector>
+	<string>
+
+1395342493 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/FACECUBE.H
+	"CUBE.H"
+
+1395342571 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/FACECUBE.CPP
+	"stdafx.h"
+	"FACECUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1395429626 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KCUBE.CPP
+	"SOLVER.H"
+	"KOCICUBE.H"
+	"FACECUBE.H"
+	"CUBEPARS.H"
+	<stdlib.h>
+	<iostream>
+	<vector>
+	<string>
+
+1395425293 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/SOLVER.H
+	"KOCICUBE.H"
+	"KOCIMOVT.H"
+	"PRUNINGT.H"
+	<list>
+
+1395342752 H"
+
+1395342663 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KOCICUBE.H
+	"CUBE.H"
+
+1395342752 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KOCIMOVT.H
+	"MOVETABL.H"
+	"KOCICUBE.H"
+
+1395343065 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/MOVETABL.H
+	"CUBE.H"
+	<fstream>
+
+1312759388 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/PRUNINGT.H
+	"stdafx.h"
+	<fstream>
+
+1395343115 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KOCICUBE.CPP
+	"stdafx.h"
+	"KOCICUBE.H"
+	"COMBINAT.H"
+	"VECTOR.H"
+
+1312513910 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KociembaRubikSolver.cpp
+	"stdafx.h"
+
+1395343256 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/MOVETABL.CPP
+	"stdafx.h"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1395343310 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/PRUNINGT.CPP
+	"stdafx.h"
+	"PRUNINGT.H"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1395541628 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/SOLVER.CPP
+	"stdafx.h"
+	"SOLVER.H"
+	<unistd.h>
+	<iostream>
+	<string>
+	<cstring>
+	<iomanip>
+	<algorithm>
+
+1395688333 >
+
+1395342347 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/VECTOR.CPP
+	<string.h>
+	<iostream>
+
+1312513892 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/stdafx.cpp
+	"stdafx.h"
+
+1395342347 source:/media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/COMBINAT.CPP
+	"COMBINAT.H"
+	"VECTOR.H"
+
+872269436 /media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/COMBINAT.H
+
+874377270 /media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/VECTOR.H
+
+1395342383 source:/media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/CUBE.CPP
+	"stdafx.h"
+	"CUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1395342152 /media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/stdafx.h
+
+1395342426 /media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/CUBE.H
+
+1395342465 source:/media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/CUBEPARS.CPP
+	"stdafx.h"
+	"CUBEPARS.H"
+	"FACECUBE.H"
+	<vector>
+	<string.h>
+
+1395342542 /media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/CUBEPARS.H
+	<vector>
+	<string>
+
+1395342493 /media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/FACECUBE.H
+	"CUBE.H"
+
+1395342571 source:/media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/FACECUBE.CPP
+	"stdafx.h"
+	"FACECUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1395429626 source:/media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KCUBE.CPP
+	"SOLVER.H"
+	"KOCICUBE.H"
+	"FACECUBE.H"
+	"CUBEPARS.H"
+	<stdlib.h>
+	<iostream>
+	<vector>
+	<string>
+
+1395425293 /media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/SOLVER.H
+	"KOCICUBE.H"
+	"KOCIMOVT.H"
+	"PRUNINGT.H"
+	<list>
+
+1395342663 /media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KOCICUBE.H
+	"CUBE.H"
+
+1395342752 /media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KOCIMOVT.H
+	"MOVETABL.H"
+	"KOCICUBE.H"
+
+1395343065 /media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/MOVETABL.H
+	"CUBE.H"
+	<fstream>
+
+1312759388 /media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/PRUNINGT.H
+	"stdafx.h"
+	<fstream>
+
+1395343115 source:/media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KOCICUBE.CPP
+	"stdafx.h"
+	"KOCICUBE.H"
+	"COMBINAT.H"
+	"VECTOR.H"
+
+1312513910 source:/media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KociembaRubikSolver.cpp
+	"stdafx.h"
+
+1395343256 source:/media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/MOVETABL.CPP
+	"stdafx.h"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1395343310 source:/media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/PRUNINGT.CPP
+	"stdafx.h"
+	"PRUNINGT.H"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1312513892 source:/media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/stdafx.cpp
+	"stdafx.h"
+
+1395342347 source:/media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/VECTOR.CPP
+	<string.h>
+	<iostream>
+
+1395436025 source:/media/ruan/8C6624B46624A146/Dropbox/Robô Cubo Mágico/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/SOLVER.CPP
+	"stdafx.h"
+	"SOLVER.H"
+	<iostream>
+	<string>
+	<cstring>
+	<iomanip>
+	<algorithm>
+
+1395342347 source:d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\combinat.cpp
+	"COMBINAT.H"
+	"VECTOR.H"
+
+872269436 d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\combinat.h
+
+874377270 d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\vector.h
+
+1395342383 source:d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\cube.cpp
+	"stdafx.h"
+	"CUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1395342152 d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\stdafx.h
+
+1395342426 d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\cube.h
+
+1395342465 source:d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\cubepars.cpp
+	"stdafx.h"
+	"CUBEPARS.H"
+	"FACECUBE.H"
+	<vector>
+	<string.h>
+
+1395342542 d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\cubepars.h
+	<vector>
+	<string>
+
+1395342493 d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\facecube.h
+	"CUBE.H"
+
+1395342571 source:d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\facecube.cpp
+	"stdafx.h"
+	"FACECUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1395429626 source:d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\kcube.cpp
+	"SOLVER.H"
+	"KOCICUBE.H"
+	"FACECUBE.H"
+	"CUBEPARS.H"
+	<stdlib.h>
+	<iostream>
+	<vector>
+	<string>
+
+1395425293 d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\solver.h
+	"KOCICUBE.H"
+	"KOCIMOVT.H"
+	"PRUNINGT.H"
+	<list>
+
+1395342663 d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\kocicube.h
+	"CUBE.H"
+
+1395342752 d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\kocimovt.h
+	"MOVETABL.H"
+	"KOCICUBE.H"
+
+1395343065 d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\movetabl.h
+	"CUBE.H"
+	<fstream>
+
+1312759388 d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\pruningt.h
+	"stdafx.h"
+	<fstream>
+
+1395343115 source:d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\kocicube.cpp
+	"stdafx.h"
+	"KOCICUBE.H"
+	"COMBINAT.H"
+	"VECTOR.H"
+
+1312513910 source:d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\kociembarubiksolver.cpp
+	"stdafx.h"
+
+1395343256 source:d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\movetabl.cpp
+	"stdafx.h"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1395343310 source:d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\pruningt.cpp
+	"stdafx.h"
+	"PRUNINGT.H"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1312513892 source:d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\stdafx.cpp
+	"stdafx.h"
+
+1395342347 source:d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\vector.cpp
+	<string.h>
+	<iostream>
+
+1395688333 source:d:\dropbox\rob� cubo m�gico\antigo\algor�tmo de solu��o (antigo)\kociemba rubik solver (linux)\kociembarubiksolverlinux\solver.cpp
+	"stdafx.h"
+	"SOLVER.H"
+	<unistd.h>
+	<iostream>
+	<string>
+	<cstring>
+	<iomanip>
+	<algorithm>
+
+1395342347 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/COMBINAT.CPP
+	"COMBINAT.H"
+	"VECTOR.H"
+
+872269436 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/COMBINAT.H
+
+874377270 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/VECTOR.H
+
+1395342383 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/CUBE.CPP
+	"stdafx.h"
+	"CUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1395342152 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/stdafx.h
+
+1395342426 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/CUBE.H
+
+1395342465 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/CUBEPARS.CPP
+	"stdafx.h"
+	"CUBEPARS.H"
+	"FACECUBE.H"
+	<vector>
+	<string.h>
+
+1395342542 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/CUBEPARS.H
+	<vector>
+	<string>
+
+1395342493 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/FACECUBE.H
+	"CUBE.H"
+
+1395342571 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/FACECUBE.CPP
+	"stdafx.h"
+	"FACECUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1395429626 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KCUBE.CPP
+	"SOLVER.H"
+	"KOCICUBE.H"
+	"FACECUBE.H"
+	"CUBEPARS.H"
+	<stdlib.h>
+	<iostream>
+	<vector>
+	<string>
+
+1395710849 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/SOLVER.H
+	"KOCICUBE.H"
+	"KOCIMOVT.H"
+	"PRUNINGT.H"
+	<list>
+
+1395342663 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KOCICUBE.H
+	"CUBE.H"
+
+1395342752 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KOCIMOVT.H
+	"MOVETABL.H"
+	"KOCICUBE.H"
+
+1395343065 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/MOVETABL.H
+	"CUBE.H"
+	<fstream>
+
+1312759388 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/PRUNINGT.H
+	"stdafx.h"
+	<fstream>
+
+1395343115 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KOCICUBE.CPP
+	"stdafx.h"
+	"KOCICUBE.H"
+	"COMBINAT.H"
+	"VECTOR.H"
+
+1312513910 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/KociembaRubikSolver.cpp
+	"stdafx.h"
+
+1395343256 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/MOVETABL.CPP
+	"stdafx.h"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1395343310 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/PRUNINGT.CPP
+	"stdafx.h"
+	"PRUNINGT.H"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1395342347 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/VECTOR.CPP
+	<string.h>
+	<iostream>
+
+1312513892 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/stdafx.cpp
+	"stdafx.h"
+
+1395714260 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux)/kociembaRubikSolverLinux/SOLVER.CPP
+	"stdafx.h"
+	"SOLVER.H"
+	<unistd.h>
+	<iostream>
+	<string>
+	<cstring>
+	<iomanip>
+	<algorithm>
+
+1395342347 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/COMBINAT.CPP
+	"COMBINAT.H"
+	"VECTOR.H"
+
+872269436 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/COMBINAT.H
+
+874377270 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/VECTOR.H
+
+1395342383 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/CUBE.CPP
+	"stdafx.h"
+	"CUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1395342152 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/stdafx.h
+
+1395342426 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/CUBE.H
+
+1395342465 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/CUBEPARS.CPP
+	"stdafx.h"
+	"CUBEPARS.H"
+	"FACECUBE.H"
+	<vector>
+	<string.h>
+
+1395342542 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/CUBEPARS.H
+	<vector>
+	<string>
+
+1395342493 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/FACECUBE.H
+	"CUBE.H"
+
+1395342571 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/FACECUBE.CPP
+	"stdafx.h"
+	"FACECUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1395429626 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/KCUBE.CPP
+	"SOLVER.H"
+	"KOCICUBE.H"
+	"FACECUBE.H"
+	"CUBEPARS.H"
+	<stdlib.h>
+	<iostream>
+	<vector>
+	<string>
+
+1395710849 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/SOLVER.H
+	"KOCICUBE.H"
+	"KOCIMOVT.H"
+	"PRUNINGT.H"
+	<list>
+
+1395342663 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/KOCICUBE.H
+	"CUBE.H"
+
+1395342752 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/KOCIMOVT.H
+	"MOVETABL.H"
+	"KOCICUBE.H"
+
+1395343065 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/MOVETABL.H
+	"CUBE.H"
+	<fstream>
+
+1312759388 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/PRUNINGT.H
+	"stdafx.h"
+	<fstream>
+
+1395343115 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/KOCICUBE.CPP
+	"stdafx.h"
+	"KOCICUBE.H"
+	"COMBINAT.H"
+	"VECTOR.H"
+
+1312513910 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/KociembaRubikSolver.cpp
+	"stdafx.h"
+
+1395343256 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/MOVETABL.CPP
+	"stdafx.h"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1395343310 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/PRUNINGT.CPP
+	"stdafx.h"
+	"PRUNINGT.H"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1395342347 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/VECTOR.CPP
+	<string.h>
+	<iostream>
+
+1312513892 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/stdafx.cpp
+	"stdafx.h"
+
+1396568400 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/SOLVER.CPP
+	"stdafx.h"
+	"SOLVER.H"
+	"ARDUINOSERIAL.H"
+	<unistd.h>
+	<iostream>
+	<string>
+	<cstring>
+	<iomanip>
+	<algorithm>
+
+1396381272 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/arduino-serial-lib.c
+	"arduino-serial-lib.h"
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<string.h>
+	<sys/ioctl.h>
+
+1396381272 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/arduino-serial-lib.h
+	<stdint.h>
+
+1396464210 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/ARDUINO-SERIAL-LIB.c
+	"ARDUINO-SERIAL-LIB.h"
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<string.h>
+	<sys/ioctl.h>
+
+1396464420 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/ARDUINO-SERIAL-LIB.h
+	<stdint.h>
+
+1396464467 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/ARDUINOSERIALLIB.c
+	"ARDUINOSERIALLIB.h"
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<string.h>
+	<sys/ioctl.h>
+
+1396464490 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/ARDUINOSERIALLIB.h
+	<stdint.h>
+
+1396464785 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/ARDUINOSERIAL.c
+	"ARDUINOSERIAL.h"
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<string.h>
+	<sys/ioctl.h>
+
+1396464972 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/ARDUINOSERIAL.h
+	<stdint.h>
+
+1396464785 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/ARDUINOSERIAL.cpp
+	"ARDUINOSERIAL.h"
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<string.h>
+	<sys/ioctl.h>
+
+1396558594 source:/home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/ARDUINOSERIAL.CPP
+	"ARDUINOSERIAL.H"
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+	<errno.h>
+	<termios.h>
+	<string.h>
+	<sys/ioctl.h>
+
+1396464972 /home/lir-pet2/Dropbox/Projetos/Robô Rubik/ANTIGO/Algorítmo de Solução (ANTIGO)/Kociemba Rubik Solver (linux-melhoria-serial)/kociembaRubikSolverLinux/ARDUINOSERIAL.H
+	<stdint.h>
+

@@ -1,0 +1,6 @@
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\NXTController\bin\Debug\NXTController.dll
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\NXTController\bin\Debug\NXTController.pdb
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\NXTController\bin\Debug\AForge.Robotics.Lego.dll
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\NXTController\obj\Debug\NXTRobotController.csprojResolveAssemblyReference.cache
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\NXTController\obj\Debug\NXTController.dll
+C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\NXTController\obj\Debug\NXTController.pdb
