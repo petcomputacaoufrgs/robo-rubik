@@ -53,8 +53,14 @@ void CubeView::printColors()
     {
         for(int col =0; col < SIDESIZE; col++)
         {
-            printf("colorCode: %c", cubeSide[row][col].getColorCode());
+            cv::Vec3b bgr = cubeSide[row][col].getBgrColor();
+            cv::Vec3f lab = CubeSquare::bgrToLab(bgr);
+            printf("bgrColor: %d  , %d  ,  %d\n", bgr[0], bgr[1], bgr[2]);
+            printf("labColor: %f  , %f  ,  %f\n", lab[0], lab[1], lab[2]);
+            printf("colorCode: %c    ", cubeSide[row][col].getColorCode());
+            printf("\n");
         }
-        printf("\n");
+        printf("----------");
     }
+    printf("==========");
 }

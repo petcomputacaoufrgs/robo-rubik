@@ -3,14 +3,14 @@
 #include <iostream>
 
 using namespace std;
-/*
+
 CameraView::CameraView()  ///MOCK CONSTRUCTOR
 {
     this->currentFrame = new cv::Mat();
     *(this->currentFrame) = cv::imread("/home/crmdias/Desktop/PET/roborubik/RubikCV/image.jpg",CV_LOAD_IMAGE_COLOR);
 }
-*/
 
+/*
 CameraView::CameraView()
 {
     ///ctor
@@ -27,7 +27,7 @@ CameraView::CameraView()
 
      cout<<"depth : " << this->currentFrame->depth() << "channels : " << this->currentFrame->channels() <<endl;
 }
-
+*/
 
 CameraView::CameraView(int cameraID)
 {
@@ -48,13 +48,13 @@ CameraView::~CameraView()
     this->camera.release();
     //dtor
 }
-/*
+
 void CameraView::updateFrame()  ///MOCK UPDATE
 {
     *(this->currentFrame) = cv::imread("/home/crmdias/Desktop/PET/roborubik/RubikCV/image.jpg",CV_LOAD_IMAGE_COLOR);
     return;
 }
-*/
+/*
 
 void CameraView::updateFrame()
 {
@@ -66,3 +66,4 @@ void CameraView::updateFrame()
             cout<<"erro ao tirar foto"<<endl;
     }
 }
+*/

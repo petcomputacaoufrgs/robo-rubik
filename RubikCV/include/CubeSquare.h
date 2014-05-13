@@ -27,8 +27,11 @@ class CubeSquare
 
         //methods
         char getColorCode();
-        cv::Vec3b getRgbColor();
+        cv::Vec3b getBgrColor();
         void showRectangle();
+        static void initColors();
+        static void printBaseColors();
+        static cv::Vec3f bgrToLab(cv::Vec3b bgrColor1);
         //members
         cv::Rect_<int> RegionOfInterest;
     protected:
@@ -38,7 +41,6 @@ class CubeSquare
     private:
         //methods
         float colorDistance(cv::Vec3f labColor1, cv::Vec3f labColor2);
-        cv::Vec3f rgbToLab(cv::Vec3b rgbColor1);
         static inline cv::Vec3f vec3fFromFloat3(float source[3]);
         //members
         cv::Mat* cubeImage;

@@ -10,8 +10,10 @@ using namespace cv;
 int main()
 {
 
-     CubeView camera;
+    CubeView camera;
     namedWindow("MyVideo",CV_WINDOW_AUTOSIZE); //create a window called "MyVideo"
+    CubeSquare::initColors();
+    CubeSquare::printBaseColors();
     int key=0;
     while(key!=27)
     {
