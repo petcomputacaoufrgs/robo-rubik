@@ -74,7 +74,7 @@ int main(int argc, char* argv[])
 	    if(true){  //Opening device file
         cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
-        //photo();
+        //photo(); //orientação correta
         usleep(100000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
         fflush(arduinoStream);
@@ -83,13 +83,13 @@ int main(int argc, char* argv[])
         fflush(arduinoStream);
         usleep(600000);
         cin.get();
-        //photo();
+        //photo(); //orientação certa
         usleep(100000);
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
         fflush(arduinoStream);
         usleep(600000);
         cin.get();
-        //photo();
+        //photo(); //orietação invertida
         usleep(100000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
         fflush(arduinoStream);
@@ -110,7 +110,102 @@ int main(int argc, char* argv[])
         fflush(arduinoStream);
         usleep(600000);
         cin.get();
-        //photo();
+        //photo(); //orientação certa
+        usleep(100000);
+        fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", LEFTUP90); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", LEFTDOWN90); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        cin.get();
+        //photo(); //orientação invertida
+        usleep(100000);
+        fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        cin.get();
+        //photo();; //orientação certa v(modo frinal ta na foto, a partir daqui estou voltando o cubo pra posição original
+        usleep(100000);
+        fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", LEFTUP90); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", LEFTDOWN90); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+        fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
+        fflush(arduinoStream);
+        usleep(600000);
+
        }
 		unsigned int status;
 

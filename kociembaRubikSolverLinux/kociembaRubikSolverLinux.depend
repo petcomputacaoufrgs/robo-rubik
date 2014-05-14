@@ -666,3 +666,103 @@
 1400023124 source:/home/pet/projects/Rubik/roborubik/kociembaRubikSolverLinux/stdafx.cpp
 	"stdafx.h"
 
+1400092507 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/COMBINAT.CPP
+	"COMBINAT.H"
+	"VECTOR.H"
+
+1400092507 /home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/COMBINAT.H
+
+1400092507 /home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/VECTOR.H
+
+1400092507 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/CUBE.CPP
+	"stdafx.h"
+	"CUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1400092507 /home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/stdafx.h
+
+1400092507 /home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/CUBE.H
+
+1400092507 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/CUBEPARS.CPP
+	"stdafx.h"
+	"CUBEPARS.H"
+	"FACECUBE.H"
+	<vector>
+	<string.h>
+
+1400092507 /home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/CUBEPARS.H
+	<vector>
+	<string>
+
+1400092507 /home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/FACECUBE.H
+	"CUBE.H"
+
+1400092507 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/FACECUBE.CPP
+	"stdafx.h"
+	"FACECUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1400092507 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/KOCICUBE.CPP
+	"stdafx.h"
+	"KOCICUBE.H"
+	"COMBINAT.H"
+	"VECTOR.H"
+
+1400092507 /home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/KOCICUBE.H
+	"CUBE.H"
+
+1400092507 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/KociembaRubikSolver.cpp
+	"stdafx.h"
+
+1400092507 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/MOVETABL.CPP
+	"stdafx.h"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1400092507 /home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/MOVETABL.H
+	"CUBE.H"
+	<fstream>
+
+1400092507 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/PRUNINGT.CPP
+	"stdafx.h"
+	"PRUNINGT.H"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1400092507 /home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/PRUNINGT.H
+	"stdafx.h"
+	<fstream>
+
+1400092507 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/SOLVER.CPP
+	"stdafx.h"
+	"SOLVER.H"
+	<unistd.h>
+	<iostream>
+	<string>
+	<cstring>
+	<iomanip>
+	<algorithm>
+
+1400092507 /home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/SOLVER.H
+	"KOCICUBE.H"
+	"KOCIMOVT.H"
+	"PRUNINGT.H"
+	<list>
+
+1400092507 /home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/KOCIMOVT.H
+	"MOVETABL.H"
+	"KOCICUBE.H"
+
+1400092507 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/VECTOR.CPP
+	<string.h>
+	<iostream>
+
+1400092507 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/stdafx.cpp
+	"stdafx.h"
+
