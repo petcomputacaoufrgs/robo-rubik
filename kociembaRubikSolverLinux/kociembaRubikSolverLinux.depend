@@ -592,7 +592,7 @@
 	"VECTOR.H"
 	<string.h>
 
-1400023124 source:/home/pet/projects/Rubik/roborubik/kociembaRubikSolverLinux/KCUBE.CPP
+1400026802 source:/home/pet/projects/Rubik/roborubik/kociembaRubikSolverLinux/KCUBE.CPP
 	"SOLVER.H"
 	"KOCICUBE.H"
 	"FACECUBE.H"
@@ -601,6 +601,8 @@
 	<iostream>
 	<vector>
 	<string>
+	<stdlib.h>
+	<unistd.h>
 
 1400025008 /home/pet/projects/Rubik/roborubik/kociembaRubikSolverLinux/SOLVER.H
 	"KOCICUBE.H"
