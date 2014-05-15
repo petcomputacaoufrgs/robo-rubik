@@ -64,7 +64,7 @@
 	"opencv2/highgui/highgui.hpp"
 	"./include/CubeView.h"
 
-1399923545 /home/lir-pet2/Documentos/roborubik/RubikCV/include/CubeView.h
+1400115728 /home/lir-pet2/Documentos/roborubik/RubikCV/include/CubeView.h
 	"opencv2/highgui/highgui.hpp"
 	"../include/CameraView.h"
 	"../include/CubeSquare.h"
@@ -77,17 +77,17 @@
 	"opencv2/core/core.hpp"
 	"opencv2/opencv.hpp"
 
-1399925693 source:/home/lir-pet2/Documentos/roborubik/RubikCV/src/CameraView.cpp
+1400110637 source:/home/lir-pet2/Documentos/roborubik/RubikCV/src/CameraView.cpp
 	"../include/CameraView.h"
 	<iostream>
 
-1399923545 source:/home/lir-pet2/Documentos/roborubik/RubikCV/src/CubeSquare.cpp
+1400115114 source:/home/lir-pet2/Documentos/roborubik/RubikCV/src/CubeSquare.cpp
 	"../include/CubeSquare.h"
 	<cstdio>
 	<math.h>
 	"opencv2/imgproc/imgproc.hpp"
 
-1399923545 source:/home/lir-pet2/Documentos/roborubik/RubikCV/src/CubeView.cpp
+1400115822 source:/home/lir-pet2/Documentos/roborubik/RubikCV/src/CubeView.cpp
 	"../include/CubeView.h"
 	<cstdio>
 

@@ -766,7 +766,7 @@
 1400103944 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/stdafx.cpp
 	"stdafx.h"
 
-1400109292 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/KCUBE.CPP
+1400188727 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/KCUBE.CPP
 	"SOLVER.H"
 	"KOCICUBE.H"
 	"FACECUBE.H"
@@ -777,4 +777,18 @@
 	<string>
 	<stdlib.h>
 	<unistd.h>
+	"CubeView.h"
+
+1400115728 /home/lir-pet2/Documentos/roborubik/RubikCV/include/CubeView.h
+	"opencv2/highgui/highgui.hpp"
+	"../include/CameraView.h"
+	"../include/CubeSquare.h"
+
+1399923545 /home/lir-pet2/Documentos/roborubik/RubikCV/include/CameraView.h
+	"opencv2/highgui/highgui.hpp"
+
+1399923545 /home/lir-pet2/Documentos/roborubik/RubikCV/include/CubeSquare.h
+	"opencv2/highgui/highgui.hpp"
+	"opencv2/core/core.hpp"
+	"opencv2/opencv.hpp"
 
