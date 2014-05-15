@@ -57,4 +57,18 @@ void CubeView::printColors()
         }
         printf("\n");
     }
+    printf("\n\n");
+}
+
+string CubeView::getColors()
+{
+    string colors = "";
+    for(int row = 0; row < SIDESIZE; row++)
+    {
+        for(int col =0; col < SIDESIZE; col++)
+        {
+            colors += (cubeSide[row][col].getColorCode());
+        }
+    }
+    return colors;
 }

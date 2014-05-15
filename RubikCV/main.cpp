@@ -9,7 +9,7 @@ using namespace cv;
 
 int main()
 {
-
+    string colors;
      CubeView camera;
     namedWindow("MyVideo",CV_WINDOW_AUTOSIZE); //create a window called "MyVideo"
     int key=0;
@@ -23,6 +23,9 @@ int main()
         if(key == 'a')
         {
             camera.printColors();
+            string tmp = camera.getColors();
+            colors += "F:" + tmp + " ";
+            cout<<colors<<endl;
         }
         else
         {

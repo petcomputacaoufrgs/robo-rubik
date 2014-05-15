@@ -22,6 +22,7 @@ class CubeView : public CameraView
         //methods
         cv::Mat getCubeView();
         void printColors();
+        string getColors();
         void updateFrame();
         void printRectangles();
     protected:

@@ -47,9 +47,9 @@ void setup()
   roborubik.openLeftClaw();
   roborubik.openRightClaw();
   // Wait for the cube
-  //delay(4000);
+  delay(4000);
   roborubik.closeLeftClaw();
-  //delay(5000);
+  delay(5000);
   roborubik.closeRightClaw();
  
 }
