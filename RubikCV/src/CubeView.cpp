@@ -13,6 +13,7 @@ CubeView::CubeView(int cameraID) : CameraView(cameraID)
                                                   this->currentFrame->rows*(1+4*row)/12);
             cubeSide[row][col] = CubeSquare(topLeft,cv::Size_<int>(this->currentFrame->cols/6,this->currentFrame->rows/6),this->currentFrame);
         }
+
 }
 
 CubeView::CubeView() : CameraView()
@@ -25,6 +26,7 @@ CubeView::CubeView() : CameraView()
                                                   this->currentFrame->rows*(1+4*row)/12);
             cubeSide[row][col] = CubeSquare(topLeft,cv::Size_<int>(this->currentFrame->cols/6,this->currentFrame->rows/6),this->currentFrame);
         }
+
 }
 
 CubeView::~CubeView()
@@ -35,6 +37,11 @@ CubeView::~CubeView()
 void CubeView::updateFrame()
 {
     this->CameraView::updateFrame();
+}
+
+void CubeView::initColors()
+{
+    CubeSquare::initColors();
 }
 
 void CubeView::printRectangles()

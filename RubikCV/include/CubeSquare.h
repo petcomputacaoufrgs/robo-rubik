@@ -6,6 +6,7 @@
 #include "opencv2/opencv.hpp"
 
 #define N_OF_COLORS 6
+#define COLOR_INIT_PATH "./colors.init"
 
 using namespace cv;
 
@@ -32,6 +33,7 @@ class CubeSquare
         static void initColors();
         static void printBaseColors();
         static cv::Vec3f bgrToLab(cv::Vec3b bgrColor1);
+        cv::Vec3f getLabColor();
         //members
         cv::Rect_<int> RegionOfInterest;
     protected:

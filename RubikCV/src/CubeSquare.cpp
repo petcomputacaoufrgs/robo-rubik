@@ -5,7 +5,6 @@
 #include <fstream>
 
 #define MAX_DISTANCE 256
-#define COLOR_INIT_PATH "./colors.init"
 
 #define LAB_RED     {53.23288178584245,80.10930952982204,67.22006831026425}
 #define LAB_GREEN   {87.73703347354422,-86.18463649762525,83.18116474777854}
@@ -205,4 +204,9 @@ inline cv::Vec3f CubeSquare::vec3fFromFloat3(float source[3])
     destination[2] = source[2];
 
     return destination;
+}
+
+cv::Vec3f CubeSquare::getLabColor()
+{
+    return CubeSquare::bgrToLab(this->getBgrColor());
 }

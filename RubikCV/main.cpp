@@ -3,6 +3,7 @@
 #include "opencv2/highgui/highgui.hpp"
 
 #include "./include/CubeView.h"
+#include "./include/CVCube.h"
 
 using namespace std;
 using namespace cv;
@@ -11,15 +12,12 @@ int main()
 {
 
     CubeView camera;
-    namedWindow("MyVideo",CV_WINDOW_AUTOSIZE); //create a window called "MyVideo"
-    CubeSquare::initColors();
-    CubeSquare::printBaseColors();
     int key=0;
+    calibrateColors(&camera, NULL);
     while(key!=27)
     {
-        camera.updateFrame();
         key =cv::waitKey(40);
-
+        camera.updateFrame();
         if(key == 10)
         {
             camera.printColors();
@@ -28,8 +26,7 @@ int main()
         {
             camera.printRectangles();
         }
-
-        imshow("MyVideo", *(camera.currentFrame)); //show the frame in "MyVideo" window
+        camera.showImage();
     }
 
     return 0;
