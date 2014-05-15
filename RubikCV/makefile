@@ -13,7 +13,7 @@ CFLAGS = -Wall
 
 rubikcv:
 	$(CC) $(MAINFILE) $(OBJ_PATH)/*.o $(CVLIBS) $(CFLAGS) -o rubikcv.out
-debug:
+Debug:
 	$(CC) -g $(MAINFILE) $(SRC_PATH)/*.cpp $(CVLIBS) $(CFLAGS) -o debug.out
 cameraview:
 	$(CC) $(SRC_PATH)/CameraView.cpp -c -o $(OBJ_PATH)/CameraView.o $(CVLIBS) $(CFLAGS)

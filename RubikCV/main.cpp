@@ -16,9 +16,11 @@ int main()
     while(key!=27)
     {
         camera.updateFrame();
-        key =cv::waitKey(40);
-
-        if(key == 10)
+        key = cv::waitKey(40);
+        if(key != -1)
+            key = key % 256;
+        //printf("%d\n", key);
+        if(key == 'a')
         {
             camera.printColors();
         }

@@ -91,12 +91,15 @@ cv::Vec3b CubeSquare::getRgbColor()
 
     int numberOfVisitedPixels = this->RegionOfInterest.height * this->RegionOfInterest.width;
     cv::Vec3b averageColor;
+    cv::Vec3b averageColor2;
 
     for(int channel=0; channel<nchannels; channel++)   ///here, channel is less or equal then 3 because we want a color with exactly 3 channels
     {
-        averageColor[channel] = round(numberOfVisitedPixels/channelSum[channel]);  //here, we calculate the harmonic average of each channel, deducting one from the total to reajust the color range
+        averageColor2[channel] = round(numberOfVisitedPixels/channelSum[channel]);  //here, we calculate the harmonic average of each channel, deducting one from the total to reajust the color range
     }
-
+    averageColor[0] = averageColor2[2];
+    averageColor[1] = averageColor2[1];
+    averageColor[2] = averageColor2[0];
     return averageColor;
 }
 

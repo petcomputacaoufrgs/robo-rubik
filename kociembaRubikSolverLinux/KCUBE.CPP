@@ -73,6 +73,7 @@ int main(int argc, char* argv[])
 	if(arduinoStream = fopen("/dev/ttyACM0","w")) {
 	    if(true){  //Opening device file
         cout<< "aperte enter entre cada foto..." << endl;
+        cin.ignore();
         cin.get();
         //photo(); //orientação correta
         usleep(100000);

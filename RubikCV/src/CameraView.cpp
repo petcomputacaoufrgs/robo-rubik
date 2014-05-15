@@ -7,7 +7,10 @@ using namespace std;
 CameraView::CameraView()  ///MOCK CONSTRUCTOR
 {
     this->currentFrame = new cv::Mat();
-    *(this->currentFrame) = cv::imread("/home/crmdias/Desktop/PET/roborubik/RubikCV/image.jpg",CV_LOAD_IMAGE_COLOR);
+    *(this->currentFrame) = cv::imread("./image.jpg",CV_LOAD_IMAGE_COLOR);
+    this->isOpened = true;
+    this->updateFrame();
+    cout<<"depth : " << this->currentFrame->depth() << "channels : " << this->currentFrame->channels() <<endl;
 }
 */
 
@@ -19,7 +22,6 @@ CameraView::CameraView()
 
     this->camera = cv::VideoCapture(CameraView::StandardCamera);
     this->isOpened = this->camera.isOpened();
-
     if(!this->isOpened)
         cout<<"erro ao abrir câmera"<<endl;
     else
@@ -51,7 +53,7 @@ CameraView::~CameraView()
 /*
 void CameraView::updateFrame()  ///MOCK UPDATE
 {
-    *(this->currentFrame) = cv::imread("/home/crmdias/Desktop/PET/roborubik/RubikCV/image.jpg",CV_LOAD_IMAGE_COLOR);
+    *(this->currentFrame) = cv::imread("./image.jpg",CV_LOAD_IMAGE_COLOR);
     return;
 }
 */
@@ -66,3 +68,4 @@ void CameraView::updateFrame()
             cout<<"erro ao tirar foto"<<endl;
     }
 }
+

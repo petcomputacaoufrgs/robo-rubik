@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="default" />
-	<File name="KCUBE.CPP" open="1" top="1" tabpos="0">
-		<Cursor position="1739" topLine="42" />
+	<File name="CUBE.CPP" open="1" top="1" tabpos="12">
+		<Cursor position="8864" topLine="356" />
+	</File>
+	<File name="CUBE.H" open="1" top="0" tabpos="11">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="KCUBE.CPP" open="1" top="0" tabpos="1">
+		<Cursor position="2443" topLine="60" />
+	</File>
+	<File name="SOLVER.CPP" open="1" top="0" tabpos="10">
+		<Cursor position="9904" topLine="267" />
+	</File>
+	<File name="SOLVER.H" open="1" top="0" tabpos="2">
+		<Cursor position="3227" topLine="57" />
 	</File>
 </CodeBlocks_layout_file>

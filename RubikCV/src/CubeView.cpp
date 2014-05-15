@@ -9,9 +9,9 @@ CubeView::CubeView(int cameraID) : CameraView(cameraID)
     for(int row = 0; row < SIDESIZE; row++)
         for(int col =0; col < SIDESIZE; col++)
         {
-            cv::Point2i topLeft = cv::Point_<int>((this->currentFrame->cols*(1+4*col)/12),
+            cv::Point2i topLeft = cv::Point_<int>(((this->currentFrame->cols - 160)*(1+4*col)/12 + 80),
                                                   this->currentFrame->rows*(1+4*row)/12);
-            cubeSide[row][col] = CubeSquare(topLeft,cv::Size_<int>(this->currentFrame->cols/6,this->currentFrame->rows/6),this->currentFrame);
+            cubeSide[row][col] = CubeSquare(topLeft,cv::Size_<int>((this->currentFrame->cols - 160)/6,this->currentFrame->rows/6),this->currentFrame);
         }
 }
 
@@ -21,9 +21,9 @@ CubeView::CubeView() : CameraView()
     for(int row = 0; row < SIDESIZE; row++)
         for(int col =0; col < SIDESIZE; col++)
         {
-            cv::Point2i topLeft = cv::Point_<int>((this->currentFrame->cols*(1+4*col)/12),
+            cv::Point2i topLeft = cv::Point_<int>(((this->currentFrame->cols - 160)*(1+4*col)/12 + 80),
                                                   this->currentFrame->rows*(1+4*row)/12);
-            cubeSide[row][col] = CubeSquare(topLeft,cv::Size_<int>(this->currentFrame->cols/6,this->currentFrame->rows/6),this->currentFrame);
+            cubeSide[row][col] = CubeSquare(topLeft,cv::Size_<int>((this->currentFrame->cols - 160)/6,this->currentFrame->rows/6),this->currentFrame);
         }
 }
 
@@ -53,7 +53,7 @@ void CubeView::printColors()
     {
         for(int col =0; col < SIDESIZE; col++)
         {
-            printf("colorCode: %c", cubeSide[row][col].getColorCode());
+            printf("colorCode: %c \t", cubeSide[row][col].getColorCode());
         }
         printf("\n");
     }

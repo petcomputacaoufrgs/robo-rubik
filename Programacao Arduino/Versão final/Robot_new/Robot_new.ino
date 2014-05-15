@@ -47,9 +47,9 @@ void setup()
   roborubik.openLeftClaw();
   roborubik.openRightClaw();
   // Wait for the cube
-  delay(5000);
+  //delay(4000);
   roborubik.closeLeftClaw();
-  delay(7000);
+  //delay(5000);
   roborubik.closeRightClaw();
  
 }
@@ -91,8 +91,7 @@ void loop()
             roborubik.moveLeftClaw90Down();
             break;
           case 'e':
-            roborubik.negLeftClaw
-            ();
+            roborubik.negLeftClaw();
             break;
           case 'f':
             roborubik.negRightClaw();
@@ -101,6 +100,18 @@ void loop()
             roborubik.openRightClaw();
             roborubik.openLeftClaw();
             break;
+          case 'q':
+          roborubik.openLeftClaw();
+          break;
+          case 'w':
+          roborubik.openRightClaw();
+          break;
+          case 'p':
+          roborubik.closeLeftClaw();
+          break;
+          case 'o':
+          roborubik.closeRightClaw();
+          break;
           case 'z':
           default:
           roborubik.negRightClaw();
