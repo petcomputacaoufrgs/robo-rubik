@@ -1,1 +1,0 @@
-C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\CubeSolver\obj\Release\CubeSolver.csprojResolveAssemblyReference.cache

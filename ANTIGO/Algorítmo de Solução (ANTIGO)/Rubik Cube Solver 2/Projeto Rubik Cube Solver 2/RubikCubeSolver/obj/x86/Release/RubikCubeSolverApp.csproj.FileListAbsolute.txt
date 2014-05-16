@@ -1,4 +1,0 @@
-C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\RubikCubeSolver\obj\x86\Release\RubikCubeSolverApp.csprojResolveAssemblyReference.cache
-C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\RubikCubeSolver\obj\x86\Release\RubikCubeSolver.frmMain.resources
-C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\RubikCubeSolver\obj\x86\Release\RubikCubeSolverApp.Properties.Resources.resources
-C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\RubikCubeSolver\obj\x86\Release\RubikCubeSolverApp.csproj.GenerateResource.Cache

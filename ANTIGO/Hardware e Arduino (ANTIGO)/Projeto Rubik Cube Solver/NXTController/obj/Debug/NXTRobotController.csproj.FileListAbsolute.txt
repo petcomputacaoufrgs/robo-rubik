@@ -1,6 +1,0 @@
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\NXTController\bin\Debug\NXTController.dll
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\NXTController\bin\Debug\NXTController.pdb
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\NXTController\bin\Debug\AForge.Robotics.Lego.dll
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\NXTController\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\NXTController\obj\Debug\NXTController.dll
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\NXTController\obj\Debug\NXTController.pdb
