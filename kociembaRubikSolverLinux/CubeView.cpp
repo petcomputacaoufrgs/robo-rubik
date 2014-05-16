@@ -13,6 +13,7 @@ CubeView::CubeView(int cameraID) : CameraView(cameraID)
                                                   this->currentFrame->rows*(1+4*row)/12);
             cubeSide[row][col] = CubeSquare(topLeft,cv::Size_<int>((this->currentFrame->cols - 160)/6,this->currentFrame->rows/6),this->currentFrame);
         }
+
 }
 
 CubeView::CubeView() : CameraView()
@@ -25,6 +26,7 @@ CubeView::CubeView() : CameraView()
                                                   this->currentFrame->rows*(1+4*row)/12);
             cubeSide[row][col] = CubeSquare(topLeft,cv::Size_<int>((this->currentFrame->cols - 160)/6,this->currentFrame->rows/6),this->currentFrame);
         }
+
 }
 
 CubeView::~CubeView()
@@ -35,6 +37,11 @@ CubeView::~CubeView()
 void CubeView::updateFrame()
 {
     this->CameraView::updateFrame();
+}
+
+void CubeView::initColors()
+{
+    CubeSquare::initColors();
 }
 
 void CubeView::printRectangles()
@@ -53,7 +60,9 @@ void CubeView::printColors()
     {
         for(int col =0; col < SIDESIZE; col++)
         {
-            printf("colorCode: %c \t", cubeSide[row][col].getColorCode());
+            cv::Vec3b bgr = cubeSide[row][col].getBgrColor();
+            cv::Vec3f lab = CubeSquare::bgrToLab(bgr);
+            printf("colorCode: %c    ", cubeSide[row][col].getColorCode());
         }
         printf("\n");
     }
@@ -71,4 +80,5 @@ string CubeView::getColors()
         }
     }
     return colors;
+    printf("==========");
 }

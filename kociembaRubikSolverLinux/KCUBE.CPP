@@ -21,6 +21,8 @@
 #include <unistd.h>
 
 #include "CubeView.h"
+#include "CVCube.h"
+
 //
 // Command line format:
 //
@@ -229,44 +231,16 @@ int main(int argc, char* argv[])
     char cubeFaces[6] = {'F', 'D', 'B', 'U', 'L', 'R'};
 	 CubeView camera;
 	 string colorPattern;
-    namedWindow("RubikView",CV_WINDOW_AUTOSIZE); //create a window called "MyVideo"
+	 camera.initColors();
     int key=0;
 //
 
 	if(arduinoStream = fopen("/dev/ttyACM0","w")) {
 
-	    if(true){  //Opening device file
-//        cout<< "aperte enter entre cada foto..." << endl;
-        while(true)
-   {
-       key = 0;
-        camera.updateFrame();
-        key = cv::waitKey(40);
-        if(key != -1)
-            key = key % 256;
-        //printf("%d\n", key);
-        if(key == 10 || key == 13)
-        {
-            camera.printColors();
-            string tmp = camera.getColors();
-            cout << tmp << endl;
-            initialRotateCube();
-            if(cubePos == 0) {
-                cout << "zueira" << endl;
-                break;
-            }
-        }
-        else
-        {
-            camera.printRectangles();
-        }
-
-        imshow("RubikView", *(camera.currentFrame)); //show the frame in "MyVideo" window
-    }
+	    recognizeCube(&camera, NULL);
         //photo(); //orientação correta
 
 //aqui go zueira
-       }
 		unsigned int status;
 
 		// Parse the input and initialize a "FaceletCube".
