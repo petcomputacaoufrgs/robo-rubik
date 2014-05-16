@@ -36,10 +36,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="include/CVCube.h" />
 		<Unit filename="include/CameraView.h" />
 		<Unit filename="include/CubeSquare.h" />
 		<Unit filename="include/CubeView.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/CVCube.cpp" />
 		<Unit filename="src/CameraView.cpp" />
 		<Unit filename="src/CubeSquare.cpp" />
 		<Unit filename="src/CubeView.cpp" />

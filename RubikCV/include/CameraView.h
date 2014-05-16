@@ -20,7 +20,7 @@ class CameraView
 
         //methods
         virtual void updateFrame();
-
+        void showImage();
         //members
         cv::Mat* currentFrame;
     protected:

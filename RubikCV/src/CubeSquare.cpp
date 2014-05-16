@@ -2,6 +2,7 @@
 #include <cstdio>
 #include <math.h>
 #include "opencv2/imgproc/imgproc.hpp"
+#include <fstream>
 
 #define MAX_DISTANCE 256
 
@@ -11,6 +12,8 @@
 #define LAB_YELLOW  {97.13824698129729,-21.555908334832285,94.48248544644461}
 #define LAB_WHITE   {100,0.00526049995830391,-0.010408184525267927}
 #define LAB_ORANGE  {74.93219484533535,23.936049070113096,78.95630717524574}
+
+using namespace std;
 
 CubeColor CubeSquare::colors[N_OF_COLORS] = {
                                             {'R',LAB_RED},
@@ -30,6 +33,58 @@ CubeSquare::CubeSquare(cv::Point2i topLeft, cv::Size_<int> squareSize, cv::Mat* 
 
 }
 
+void CubeSquare::initColors()
+{
+    ifstream colorInit(COLOR_INIT_PATH);
+
+    if(colorInit.is_open())
+    {
+        string line;
+        string number;
+        int color_index =0;
+        for(int color_index = 0; color_index <N_OF_COLORS && getline(colorInit, line); color_index++)
+        {
+            //READ THE FIRST NUMBER
+            int index_begin = line.find_first_of("{");
+            int index_end = line.find_first_of(",");
+
+            number.assign(line,index_begin+1,index_end-index_begin-1);
+            colors[color_index].labValue[0] = atof(number.c_str());
+
+            //ASSINGNS THE REST OF THE STRING TO LINE
+            line.assign(line,index_end, line.size()-index_end);
+
+            //READS THE SECOND
+            index_begin = 0;
+            index_end = line.find_first_of(",");
+
+            number.assign(line,index_begin,index_end-index_begin-1);
+            colors[color_index].labValue[1] = atof(number.c_str());
+
+            //ASSINGNS THE REST OF THE STRING TO LINE
+            line.assign(line,index_end+1, line.size()-index_end);
+
+            //READS THE THIRD
+            index_begin = 0;
+            index_end = line.find_first_of("}");
+
+            number.assign(line,index_begin,index_end-index_begin-1);
+            colors[color_index].labValue[1] = atof(number.c_str());
+        }
+    }
+    colorInit.close();
+}
+
+void CubeSquare::printBaseColors()
+{
+    for(int i=0; i< N_OF_COLORS; i++)
+    {
+        for(int j=0; j< 3; j++)
+            printf("color: %f    ", colors[i].labValue[j]);
+        printf("\n");
+    }
+}
+
 CubeSquare::CubeSquare()
 {
     this->RegionOfInterest = cv::Rect_<int>(cv::Point2i(0,0),cv::Size_<int>(0,0));
@@ -45,18 +100,18 @@ CubeSquare::~CubeSquare()
 /*returns the colorCode of the color in colors array that is the most similar to the color of this square*/
 char CubeSquare::getColorCode()
 {
-    cv::Vec3f labColor = this->rgbToLab(this->getRgbColor());   //labColor contains this CubeSquare color in lab color space
+    cv::Vec3b bgrColor = this->getBgrColor();
+    cv::Vec3f labColor = CubeSquare::bgrToLab(this->getBgrColor());   //labColor contains this CubeSquare color in lab color space
     int closestColorIndex = 0;        //this will contain the index of the most similar color
     float minDistance = MAX_DISTANCE;               //will contain the minimum distance between this square's color and all the colors in the colors array
-    float currentDistance;
+    float distance;
 
     for(int i=0; i < N_OF_COLORS; i++)
     {
-        currentDistance = colorDistance(labColor,CubeSquare::vec3fFromFloat3(colors[i].labValue));
-
-        if(currentDistance < minDistance)
+        distance = colorDistance(labColor,colors[i].labValue);
+        if(distance < minDistance)
         {
-            minDistance = currentDistance;
+            minDistance = distance;
             closestColorIndex = i;
         }
     }
@@ -64,7 +119,7 @@ char CubeSquare::getColorCode()
     return colors[closestColorIndex].colorCode;
 }
 
-cv::Vec3b CubeSquare::getRgbColor()
+cv::Vec3b CubeSquare::getBgrColor()
 {
     //to get the color, we will calculate the harmonic mean of the color values in this region
     int nchannels = 3; //our image has 3 channels
@@ -100,12 +155,12 @@ cv::Vec3b CubeSquare::getRgbColor()
     return averageColor;
 }
 
-cv::Vec3f CubeSquare::rgbToLab(cv::Vec3b rgbColor1)
+cv::Vec3f CubeSquare::bgrToLab(cv::Vec3b bgrColor1)
 {
-    //aux will contain the rgb color in the 0,0 position
+    //aux will contain the bgr color in the 0,0 position
     cv::Mat aux = cv::Mat(1,1,CV_8UC3);
 
-    aux.at<cv::Vec3b>(0,0) = rgbColor1;
+    aux.at<cv::Vec3b>(0,0) = bgrColor1;
 
     //labColorImage will contain the result of the conversion of aux to L*a*b* color space
     cv::Mat labColorImage = cv::Mat(1,1,CV_8UC3);
@@ -145,4 +200,9 @@ inline cv::Vec3f CubeSquare::vec3fFromFloat3(float source[3])
     destination[2] = source[2];
 
     return destination;
+}
+
+cv::Vec3f CubeSquare::getLabColor()
+{
+    return CubeSquare::bgrToLab(this->getBgrColor());
 }
