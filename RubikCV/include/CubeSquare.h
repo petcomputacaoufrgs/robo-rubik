@@ -6,13 +6,14 @@
 #include "opencv2/opencv.hpp"
 
 #define N_OF_COLORS 6
+#define COLOR_INIT_PATH "./colors.init"
 
 using namespace cv;
 
 typedef struct CubeColor
 {
     char colorCode;
-    float labValue[3];
+    Vec3f labValue;
 }CubeColor;
 
 class CubeSquare
@@ -27,8 +28,12 @@ class CubeSquare
 
         //methods
         char getColorCode();
-        cv::Vec3b getRgbColor();
+        cv::Vec3b getBgrColor();
         void showRectangle();
+        static void initColors();
+        static void printBaseColors();
+        static cv::Vec3f bgrToLab(cv::Vec3b bgrColor1);
+        cv::Vec3f getLabColor();
         //members
         cv::Rect_<int> RegionOfInterest;
     protected:
@@ -38,7 +43,6 @@ class CubeSquare
     private:
         //methods
         float colorDistance(cv::Vec3f labColor1, cv::Vec3f labColor2);
-        cv::Vec3f rgbToLab(cv::Vec3b rgbColor1);
         static inline cv::Vec3f vec3fFromFloat3(float source[3]);
         //members
         cv::Mat* cubeImage;

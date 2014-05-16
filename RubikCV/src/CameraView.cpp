@@ -7,10 +7,15 @@ using namespace std;
 CameraView::CameraView()  ///MOCK CONSTRUCTOR
 {
     this->currentFrame = new cv::Mat();
+<<<<<<< HEAD
     *(this->currentFrame) = cv::imread("./image.jpg",CV_LOAD_IMAGE_COLOR);
     this->isOpened = true;
     this->updateFrame();
     cout<<"depth : " << this->currentFrame->depth() << "channels : " << this->currentFrame->channels() <<endl;
+=======
+    *(this->currentFrame) = cv::imread("/home/crmdias/Desktop/PET/roborubik/RubikCV/image.jpg",CV_LOAD_IMAGE_COLOR);
+    namedWindow("CameraView",CV_WINDOW_AUTOSIZE); //create a window called "MyVideo"
+>>>>>>> master
 }
 */
 
@@ -28,6 +33,7 @@ CameraView::CameraView()
         this->updateFrame();
 
      cout<<"depth : " << this->currentFrame->depth() << "channels : " << this->currentFrame->channels() <<endl;
+     namedWindow("CameraView",CV_WINDOW_AUTOSIZE); //create a window called "MyVideo"
 }
 
 
@@ -43,6 +49,8 @@ CameraView::CameraView(int cameraID)
         cout<<"erro ao abrir câmera"<<endl;
     else
         this->updateFrame();
+
+    namedWindow("CameraView",CV_WINDOW_AUTOSIZE); //create a window called "MyVideo"
 }
 
 CameraView::~CameraView()
@@ -58,6 +66,7 @@ void CameraView::updateFrame()  ///MOCK UPDATE
 }
 */
 
+
 void CameraView::updateFrame()
 {
     if(isOpened)
@@ -67,5 +76,10 @@ void CameraView::updateFrame()
         if(!captureSuccess)
             cout<<"erro ao tirar foto"<<endl;
     }
+}
+
+void CameraView::showImage()
+{
+    imshow("CameraView", *(this->currentFrame));
 }
 
