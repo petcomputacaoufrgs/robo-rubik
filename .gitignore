@@ -2,3 +2,7 @@
 **.zip
 **moc_*.cpp
 **ui_*.h
+**.vcxproj
+**.mtb
+**.ptb
+**.user
