@@ -766,3 +766,115 @@
 1400092507 source:/home/lir-pet2/Documentos/roborubik/kociembaRubikSolverLinux/stdafx.cpp
 	"stdafx.h"
 
+1410579935 source:/home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/COMBINAT.CPP
+	"COMBINAT.H"
+	"VECTOR.H"
+
+1410579935 /home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/COMBINAT.H
+
+1410579935 /home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/VECTOR.H
+
+1410579935 source:/home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/CUBE.CPP
+	"stdafx.h"
+	"CUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1410579935 /home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/stdafx.h
+
+1410579935 /home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/CUBE.H
+
+1410579935 source:/home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/CUBEPARS.CPP
+	"stdafx.h"
+	"CUBEPARS.H"
+	"FACECUBE.H"
+	<vector>
+	<string.h>
+
+1410579935 /home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/CUBEPARS.H
+	<vector>
+	<string>
+
+1410579935 /home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/FACECUBE.H
+	"CUBE.H"
+
+1410579935 source:/home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/FACECUBE.CPP
+	"stdafx.h"
+	"FACECUBE.H"
+	"VECTOR.H"
+	<string.h>
+
+1410580695 source:/home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/KCUBE.CPP
+	"SOLVER.H"
+	"KOCICUBE.H"
+	"FACECUBE.H"
+	"CUBEPARS.H"
+	<stdlib.h>
+	<iostream>
+	<vector>
+	<string>
+	<stdlib.h>
+	<unistd.h>
+
+1410579935 /home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/SOLVER.H
+	"KOCICUBE.H"
+	"KOCIMOVT.H"
+	"PRUNINGT.H"
+	<list>
+
+1410579935 /home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/KOCICUBE.H
+	"CUBE.H"
+
+1410579935 /home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/KOCIMOVT.H
+	"MOVETABL.H"
+	"KOCICUBE.H"
+
+1410579935 /home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/MOVETABL.H
+	"CUBE.H"
+	<fstream>
+
+1410579935 /home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/PRUNINGT.H
+	"stdafx.h"
+	<fstream>
+
+1410579935 source:/home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/KOCICUBE.CPP
+	"stdafx.h"
+	"KOCICUBE.H"
+	"COMBINAT.H"
+	"VECTOR.H"
+
+1410579935 source:/home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/KociembaRubikSolver.cpp
+	"stdafx.h"
+
+1410579935 source:/home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/MOVETABL.CPP
+	"stdafx.h"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1410579935 source:/home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/PRUNINGT.CPP
+	"stdafx.h"
+	"PRUNINGT.H"
+	"MOVETABL.H"
+	<iostream>
+	<fstream>
+	<iomanip>
+
+1410579935 source:/home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/SOLVER.CPP
+	"stdafx.h"
+	"SOLVER.H"
+	<unistd.h>
+	<iostream>
+	<string>
+	<cstring>
+	<iomanip>
+	<algorithm>
+
+1410579935 source:/home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/stdafx.cpp
+	"stdafx.h"
+
+1410579935 source:/home/ruan/roborubik/roborubik/kociembaRubikSolverLinux/VECTOR.CPP
+	<string.h>
+	<iostream>
+

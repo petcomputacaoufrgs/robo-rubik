@@ -82,12 +82,14 @@ int main(int argc, char* argv[])
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
         fflush(arduinoStream);
         usleep(600000);
+        cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
         //photo(); //orientação certa
         usleep(100000);
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
         fflush(arduinoStream);
         usleep(600000);
+        cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
         //photo(); //orietação invertida
         usleep(100000);
@@ -109,6 +111,7 @@ int main(int argc, char* argv[])
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
         fflush(arduinoStream);
         usleep(600000);
+        cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
         //photo(); //orientação certa
         usleep(100000);
@@ -133,6 +136,7 @@ int main(int argc, char* argv[])
         fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
         fflush(arduinoStream);
         usleep(600000);
+        cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
         //photo(); //orientação invertida
         usleep(100000);
@@ -157,6 +161,7 @@ int main(int argc, char* argv[])
         fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
         fflush(arduinoStream);
         usleep(600000);
+        cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
         //photo();; //orientação certa v(modo frinal ta na foto, a partir daqui estou voltando o cubo pra posição original
         usleep(100000);
@@ -244,6 +249,7 @@ int main(int argc, char* argv[])
 		Solver solver;
 		solver.InitializeTables();
 		(void)solver.Solve(cube);
+		std::cout <<solver.Moves << std::endl;
 		solver.sendToArduino(solver.Moves, 1, arduinoStream);
     }
 	return 0;

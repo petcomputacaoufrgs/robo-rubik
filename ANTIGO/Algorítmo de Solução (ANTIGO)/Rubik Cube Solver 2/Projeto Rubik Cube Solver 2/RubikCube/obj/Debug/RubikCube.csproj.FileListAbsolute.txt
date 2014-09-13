@@ -1,4 +1,0 @@
-C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\RubikCube\bin\Debug\RubikCube.dll
-C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\RubikCube\bin\Debug\RubikCube.pdb
-C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\RubikCube\obj\Debug\RubikCube.dll
-C:\Users\gabriela\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\RubikCube\obj\Debug\RubikCube.pdb

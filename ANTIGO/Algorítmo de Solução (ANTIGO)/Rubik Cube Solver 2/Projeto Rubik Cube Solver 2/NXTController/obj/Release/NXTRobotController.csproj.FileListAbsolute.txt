@@ -1,6 +1,0 @@
-C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\NXTController\bin\Release\NXTController.dll
-C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\NXTController\bin\Release\NXTController.pdb
-C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\NXTController\bin\Release\AForge.Robotics.Lego.dll
-C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\NXTController\obj\Release\NXTRobotController.csprojResolveAssemblyReference.cache
-C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\NXTController\obj\Release\NXTController.dll
-C:\Users\PET Computacao LRI\Dropbox\Projetos\Robô Rubik\ANTIGO\Algorítmo de Solução (ANTIGO)\Rubik Cube Solver 2\Projeto Rubik Cube Solver 2\NXTController\obj\Release\NXTController.pdb

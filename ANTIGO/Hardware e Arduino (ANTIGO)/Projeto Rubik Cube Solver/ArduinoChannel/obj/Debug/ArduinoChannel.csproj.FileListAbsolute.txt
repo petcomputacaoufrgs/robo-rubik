@@ -1,7 +1,0 @@
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\ArduinoChannel\bin\Debug\ArduinoCommunication.dll
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\ArduinoChannel\bin\Debug\ArduinoCommunication.pdb
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\ArduinoChannel\bin\Debug\RubikCube.dll
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\ArduinoChannel\bin\Debug\RubikCube.pdb
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\ArduinoChannel\obj\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\ArduinoChannel\obj\Debug\ArduinoCommunication.dll
-C:\Documents and Settings\User\Desktop\Robo Rubik\Projeto Rubik Cube Solver\ArduinoChannel\obj\Debug\ArduinoCommunication.pdb
