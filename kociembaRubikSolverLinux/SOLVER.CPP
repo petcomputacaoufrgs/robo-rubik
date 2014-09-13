@@ -9,6 +9,8 @@
 #include <iomanip>
 #include <algorithm>    // std::for_each
 
+#include "HumanArduinoInterface.h"
+
 Solver::Solver(void)
 	// Phase 1 move mapping tables
 	: twistMoveTable(cube),
@@ -293,16 +295,13 @@ list<std::string>* Solver::splitString(std::string* phrase, char separator) {
 	return listOfWords;
 }
 void Solver::sendToArduino(char* moves, int numOfMoves, FILE *file) {
-	std::string *sol = new string(moves);
-	list<std::string>* cmdList = splitString(sol, ' ');
-	//for_each(cmdList->begin(), cmdList->end(), humanToArduine);
-	for(std::list<std::string>::iterator it = cmdList->begin(); it != cmdList->end(); it++){
-		humanToArduine(*it);
-	}
-	this->arduinoString += 'S';
-	std::cout << this->arduinoString;
-    char data[this->arduinoString.length()+1] ;
-    std::strcpy (data, this->arduinoString.c_str());
+	std::string sol(moves);
+	HumanArduinoInterface *hai = new HumanArduinoInterface();
+	hai->setHumanMoves(sol);
+	hai->serializeCommands();
+	std::cout << hai->getArduinoMoves();
+    char data[hai->getArduinoMoves().length()+1] ;
+    std::strcpy (data, hai->getArduinoMoves().c_str());
 	//char data[] = this->arduinoString.c_str();  //Random data we want to send
 	// char data[] = {'a','b','c',0};
     if(true){  //Opening device file
