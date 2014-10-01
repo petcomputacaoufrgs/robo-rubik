@@ -69,14 +69,25 @@
 // (that may take a very long time) and the program terminates,
 // or the program is aborted by the user.
 //
+std::string reverseString(std::string orig);
+
 int main(int argc, char* argv[])
 {
 	FILE *arduinoStream;
+	ColorRecognizer *colorRec;
+	std::string faces;
+	std::vector<std::string> faces2;
 	if(arduinoStream = fopen("/dev/ttyACM0","w")) {
 	    if(true){  //Opening device file
         cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
-        //photo(); //orientação correta
+        faces = "F:";
+        colorRec = new ColorRecognizer();
+        faces.append(colorRec->getFaceColors());
+        delete colorRec;
+        faces2.push_back(faces);
+        std::cout << faces << std::endl;
+
         usleep(100000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
         fflush(arduinoStream);
@@ -84,15 +95,30 @@ int main(int argc, char* argv[])
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
         fflush(arduinoStream);
         usleep(600000);
+        fprintf(arduinoStream,"%c", 'S'); //Writing to the file
+        fflush(arduinoStream);
         cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
-        //photo(); //orientação certa
+        faces = "D:";
+        colorRec = new ColorRecognizer();
+        faces.append(colorRec->getFaceColors());
+        delete colorRec;
+        faces2.push_back(faces);
+        std::cout << faces << std::endl;
+
+        std::cout << faces << std::endl;
         usleep(100000);
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
         fflush(arduinoStream);
         usleep(600000);
         cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
+        faces = "B:";
+        colorRec = new ColorRecognizer();
+        faces.append(reverseString(colorRec->getFaceColors()));
+        delete colorRec;
+        faces2.push_back(faces);
+        std::cout << faces << std::endl;
         //photo(); //orietação invertida
         usleep(100000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
@@ -113,8 +139,16 @@ int main(int argc, char* argv[])
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
         fflush(arduinoStream);
         usleep(600000);
+        fprintf(arduinoStream,"%c", 'S'); //Writing to the file
+        fflush(arduinoStream);
         cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
+        faces = "U:";
+        colorRec = new ColorRecognizer();
+        faces.append(colorRec->getFaceColors());
+        delete colorRec;
+        faces2.push_back(faces);
+        std::cout << faces << std::endl;
         //photo(); //orientação certa
         usleep(100000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
@@ -138,8 +172,16 @@ int main(int argc, char* argv[])
         fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
         fflush(arduinoStream);
         usleep(600000);
+        fprintf(arduinoStream,"%c", 'S'); //Writing to the file
+        fflush(arduinoStream);
         cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
+        faces = "L:";
+        colorRec = new ColorRecognizer();
+        faces.append(reverseString(colorRec->getFaceColors()));
+        faces2.push_back(faces);
+        std::cout << faces << std::endl;
+        delete colorRec;
         //photo(); //orientação invertida
         usleep(100000);
         fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
@@ -163,8 +205,17 @@ int main(int argc, char* argv[])
         fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
         fflush(arduinoStream);
         usleep(600000);
+        fprintf(arduinoStream,"%c", 'S'); //Writing to the file
+        fflush(arduinoStream);
         cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
+        faces = "R:";
+        colorRec = new ColorRecognizer();
+        faces.append(reverseString(colorRec->getFaceColors()));
+        faces2.push_back(faces);
+        delete colorRec;
+        std::cout << faces << std::endl;
+
         //photo();; //orientação certa v(modo frinal ta na foto, a partir daqui estou voltando o cubo pra posição original
         usleep(100000);
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
@@ -212,6 +263,8 @@ int main(int argc, char* argv[])
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
         fflush(arduinoStream);
         usleep(600000);
+        fprintf(arduinoStream,"%c", 'S'); //Writing to the file
+        fflush(arduinoStream);
 
        }
 		unsigned int status;
@@ -222,7 +275,7 @@ int main(int argc, char* argv[])
 
 		FaceletCube faceletCube;
 		CubeParser cubeParser;
-		if ((status = cubeParser.ParseInput(argc, argv, faceletCube)) != CubeParser::VALID)
+		if ((status = cubeParser.ParseInput(faces2, faceletCube)) != CubeParser::VALID)
 		{
 			cout << cubeParser.ErrorText(status) << endl;
 			cout << "bla bla bla" << endl;
@@ -256,6 +309,16 @@ int main(int argc, char* argv[])
     }
 	return 0;
 }
+
+
+std::string reverseString(std::string orig) {
+    std::string tmp = orig;
+    for(int i = 0; i < orig.size(); i++) {
+        tmp[orig.size()-i] = orig[i];
+    }
+    return tmp;
+}
+
 
 extern "C"
 {

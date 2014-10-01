@@ -48,7 +48,7 @@ public:
     CvCapture* capture = cvCaptureFromCAM(CV_CAP_ANY);  //Capture using any camera connected to your system
     //while(1) {
     IplImage* frame;
-    while(cvWaitKey(10) != 'k') {
+    //while(cvWaitKey(10) != 'k') {
         frame = cvQueryFrame(capture); //Create image frames from capture
         cvShowImage("Recognizer", frame);   //Show image frames on created window
 
@@ -228,8 +228,8 @@ public:
             }
         }
         cvShowImage("Recognizer", frame);   //Show image frames on created window
-    }
-        while(cvWaitKey(10) != 27) {}
+   // }
+    //    while(cvWaitKey(10) != 'k') {}
 
     cvReleaseCapture(&capture); //Release capture.
     cvDestroyWindow("Recognizer"); //Destroy Window
