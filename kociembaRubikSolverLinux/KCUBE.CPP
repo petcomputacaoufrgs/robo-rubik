@@ -13,6 +13,8 @@
 #include "FACECUBE.H"	// FaceletCube
 #include "CUBEPARS.H"	// CubeParser
 
+#include "ColorRecognizer.h"
+
 #include <stdlib.h>     // For exit()
 #include <iostream>
 #include <vector>

@@ -19,6 +19,7 @@
 		<Unit filename="CUBEPARS.CPP" />
 		<Unit filename="CUBEPARS.H" />
 		<Unit filename="Choice.mtb" />
+		<Unit filename="ColorRecognizer.h" />
 		<Unit filename="CrnrPerm.mtb" />
 		<Unit filename="CrnrSlic.ptb" />
 		<Unit filename="EdgePerm.mtb" />
@@ -27,6 +28,8 @@
 		<Unit filename="FACECUBE.H" />
 		<Unit filename="Flip.mtb" />
 		<Unit filename="FlipChce.ptb" />
+		<Unit filename="HumanArduinoInterface.cpp" />
+		<Unit filename="HumanArduinoInterface.h" />
 		<Unit filename="KCUBE.CPP" />
 		<Unit filename="KOCICUBE.CPP" />
 		<Unit filename="KOCICUBE.H" />
