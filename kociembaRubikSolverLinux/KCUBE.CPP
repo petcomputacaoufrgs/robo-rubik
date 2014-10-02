@@ -77,7 +77,7 @@ int main(int argc, char* argv[])
 	ColorRecognizer *colorRec;
 	std::string faces;
 	std::vector<std::string> faces2;
-	if(arduinoStream = fopen("/dev/ttyACM0","w")) {
+	if(arduinoStream = fopen("/dev/ttyACM2","w")) {
 	    if(true){  //Opening device file
         cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
@@ -88,13 +88,13 @@ int main(int argc, char* argv[])
         faces2.push_back(faces);
         std::cout << faces << std::endl;
 
-        usleep(100000);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", 'S'); //Writing to the file
         fflush(arduinoStream);
         cout<< "aperte enter entre cada foto..." << endl;
@@ -106,11 +106,12 @@ int main(int argc, char* argv[])
         faces2.push_back(faces);
         std::cout << faces << std::endl;
 
-        std::cout << faces << std::endl;
-        usleep(100000);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
+        //fflush(arduinoStream);
+        //usleep(10000);
+        fprintf(arduinoStream,"%c", 'S'); //Writing to the file
         fflush(arduinoStream);
-        usleep(600000);
         cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
         faces = "B:";
@@ -120,25 +121,25 @@ int main(int argc, char* argv[])
         faces2.push_back(faces);
         std::cout << faces << std::endl;
         //photo(); //orietação invertida
-        usleep(100000);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", 'S'); //Writing to the file
         fflush(arduinoStream);
         cout<< "aperte enter entre cada foto..." << endl;
@@ -150,28 +151,28 @@ int main(int argc, char* argv[])
         faces2.push_back(faces);
         std::cout << faces << std::endl;
         //photo(); //orientação certa
-        usleep(100000);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", LEFTUP90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", LEFTDOWN90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", 'S'); //Writing to the file
         fflush(arduinoStream);
         cout<< "aperte enter entre cada foto..." << endl;
@@ -183,86 +184,86 @@ int main(int argc, char* argv[])
         std::cout << faces << std::endl;
         delete colorRec;
         //photo(); //orientação invertida
-        usleep(100000);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(10000);
         fprintf(arduinoStream,"%c", 'S'); //Writing to the file
         fflush(arduinoStream);
         cout<< "aperte enter entre cada foto..." << endl;
         cin.get();
         faces = "R:";
         colorRec = new ColorRecognizer();
-        faces.append(reverseString(colorRec->getFaceColors()));
+        faces.append((colorRec->getFaceColors()));
         faces2.push_back(faces);
         delete colorRec;
         std::cout << faces << std::endl;
 
         //photo();; //orientação certa v(modo frinal ta na foto, a partir daqui estou voltando o cubo pra posição original
-        usleep(100000);
+        //usleep(100000);
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(600000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(600000);
         fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(600000);
         fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(600000);
         fprintf(arduinoStream,"%c", LEFTUP90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(600000);
         fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(600000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+        //fflush(arduinoStream);
+        //usleep(600000);
         fprintf(arduinoStream,"%c", LEFTDOWN90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+       // fflush(arduinoStream);
+        //usleep(600000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+   //     fflush(arduinoStream);
+   //     usleep(600000);
         fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+       // fflush(arduinoStream);
+      //  usleep(600000);
         fprintf(arduinoStream,"%c", RIGHTUP90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+       // fflush(arduinoStream);
+      //  usleep(600000);
         fprintf(arduinoStream,"%c", RIGHTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+      //  fflush(arduinoStream);
+      //  usleep(600000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+    //    fflush(arduinoStream);
+     //   usleep(600000);
         fprintf(arduinoStream,"%c", RIGHTDOWN90); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+      //  fflush(arduinoStream);
+     //   usleep(600000);
         fprintf(arduinoStream,"%c", LEFTTOGGLE); //Writing to the file
-        fflush(arduinoStream);
-        usleep(600000);
+     //   fflush(arduinoStream);
+     //   usleep(600000);
         fprintf(arduinoStream,"%c", 'S'); //Writing to the file
         fflush(arduinoStream);
 
@@ -306,6 +307,8 @@ int main(int argc, char* argv[])
 		(void)solver.Solve(cube);
 		std::cout <<solver.Moves << std::endl;
 		solver.sendToArduino(solver.Moves, 1, arduinoStream);
+    } else {
+        std::cout << "erro ao abrir serial" << std::endl;
     }
 	return 0;
 }
@@ -314,7 +317,7 @@ int main(int argc, char* argv[])
 std::string reverseString(std::string orig) {
     std::string tmp = orig;
     for(int i = 0; i < orig.size(); i++) {
-        tmp[orig.size()-i] = orig[i];
+        tmp[orig.size()-i-1] = orig[i];
     }
     return tmp;
 }

@@ -7,9 +7,9 @@
 
 #define Rvermelho 0.35
 #define Bazul 0.65
-#define Gamarelo 0.40
+#define Gamarelo 0.39
 #define Glaranja 0.25
-#define Gverde 0.35
+#define Gverde 0.42
 
 using namespace std;
 using namespace cv;
